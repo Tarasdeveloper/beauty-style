@@ -2,7 +2,7 @@
 	"name": "beauty-style",
 	"version": "2.0.0",
 	"description": "",
-	"homepage": "https://tarasdeveloper.github.io/beauty-style/",
+	"homepage": "https://tarasdeveloper.github.io/beauty-style",
 	"scripts": {
 		"start": "parcel src/*.html",
 		"build": "parcel build src/*.html --public-url /beauty-style/"
