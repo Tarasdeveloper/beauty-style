@@ -1,0 +1,97 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: normal;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	color: var(--default-color);
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	background-color: #b5b3b4;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.menu__btn {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	margin-left: 20px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 2;
+
+	@include r($r-tb) {
+		display: none;
+	}
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	color: var(--white);
+	font-size: clamp(20px, 2vw, 40px);
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+
+	&-link {
+		display: flex;
+		align-items: center;
+	}
+
+	&-img {
+		width: clamp(30px, 4vw, 60px);
+		margin-right: 10px;
+	}
+}
+
+.hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+#scrollUpButton {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	background-color: var(--accent);
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 100;
+}
+
+#scrollUpButton:before {
+	content: '\2191';
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+}
