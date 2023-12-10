@@ -1,8 +1,8 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
-	line-height: normal;
 	font-weight: 500;
+	line-height: 1.67;
 	letter-spacing: 0.02em;
 	color: var(--default-color);
 	display: flex;
@@ -45,14 +45,14 @@ body {
 	display: flex;
 	align-items: center;
 	color: var(--white);
-	font-size: clamp(20px, 2vw, 40px);
+	font-size: clamp(20px, 3vw, 40px);
 	font-weight: 600;
 	font-family: 'Montserrat', sans-serif;
-	width: 100%;
 
 	&-link {
 		display: flex;
 		align-items: center;
+		@include line-clamp(1);
 	}
 
 	&-img {

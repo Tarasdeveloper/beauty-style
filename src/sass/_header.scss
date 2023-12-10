@@ -7,10 +7,6 @@
 		justify-content: space-between;
 	}
 
-	&-logo {
-		margin-right: auto;
-	}
-
 	&-nav {
 		display: flex;
 		width: 100%;
@@ -22,6 +18,7 @@
 		max-width: 570px;
 		width: 100%;
 		justify-content: space-between;
+		margin-left: auto;
 	}
 
 	&-nav-links {
@@ -53,6 +50,7 @@
 	&-social-links {
 		display: flex;
 		column-gap: 25px;
+		padding-left: 20px;
 	}
 
 	&-social-item {
