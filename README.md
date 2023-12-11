@@ -1,1 +1,1 @@
-Beauty-style: landing-page created with: html, scss, parsell, yarn, JS
+Beauty-style: landing-page created with: html, scss, parsell, JS
