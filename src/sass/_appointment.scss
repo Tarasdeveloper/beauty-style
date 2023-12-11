@@ -1,0 +1,63 @@
+.appointment {
+	padding: 60px 0;
+	background-color: var(--default-color);
+	color: var(--white);
+
+	&-form {
+		display: flex;
+		align-items: center;
+		height: 81px;
+	}
+
+	&-label {
+		text-transform: uppercase;
+		font-weight: 400;
+		display: flex;
+		flex-direction: column;
+		padding: 0 12px;
+	}
+
+	&-input {
+		border: none;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		padding: 14px 16px 16px 0;
+		color: var(--white);
+		font-size: 18px;
+		outline: none;
+		width: 274px;
+		// width: 100%;
+
+		&::placeholder {
+			color: var(--white);
+			color: white;
+			font-size: 18px;
+		}
+
+		.notvalid {
+			border-color: #f5543f;
+		}
+	}
+
+	&-submit-btn {
+		padding: 18px 35px;
+		font-size: 15px;
+		line-height: 1.5;
+		background-color: var(--white);
+		color: var(--default-color);
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.002em;
+		border-color: transparent;
+		margin-top: 12px;
+		margin-left: 27px;
+		transition: color var(--transit), background-color var(--transit),
+			border-color var(--transit);
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: var(--white);
+			background-color: var(--hover-purple);
+		}
+	}
+}
