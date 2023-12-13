@@ -19,6 +19,7 @@
 	},
 	"dependencies": {
 		"@parcel/watcher": "^2.3.0",
+		"i18next": "^23.7.9",
 		"modern-normalize": "^1.1.0"
 	},
 	"devDependencies": {
