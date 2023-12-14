@@ -13,6 +13,12 @@
 		flex: 0 0 auto;
 		width: 33.33333%;
 		padding: 0 26px;
+
+		&:hover .woman::after,
+		&:hover .chair::after,
+		&:hover .phone::after {
+			transform: translate(0, 0);
+		}
 	}
 
 	&-icon {
@@ -30,9 +36,8 @@
 			content: '';
 			position: absolute;
 			top: 33%;
-			left: 56%;
-			z-index: 0;
-			background-color: #c9c0d5;
+			left: 82%;
+			z-index: -1;
 			transition: all 0.6s;
 		}
 
@@ -40,10 +45,10 @@
 			background-image: url('../images/icons/woman.svg');
 			&::after {
 				border-color: transparent transparent #c9c0d5 transparent;
+				border-width: 0 10px 18px 10px;
 				width: 0;
 				height: 0;
 				border-style: solid;
-				border-width: 0 10px 18px 10px;
 				transform: rotate(137.76deg) translate(0, 0);
 				will-change: transform;
 			}
@@ -55,8 +60,9 @@
 				width: 20px;
 				height: 20px;
 				border-radius: 50%;
-				transform: translate(0, 0);
+				// transform: translate(0, 0);
 				will-change: transform;
+				background-color: #c9c0d5;
 			}
 		}
 
@@ -67,7 +73,8 @@
 				height: 16px;
 				transform: translateY(0) rotate(45deg);
 				will-change: transform;
-				// transition: all 0.6s;
+				background-color: #c9c0d5;
+				// transform-origin: 50% 0;
 			}
 		}
 	}
