@@ -1,2 +1,1 @@
-// import './JS/currentSection;
-// import './JS/upcoming';
+import './JS/currentSection';
