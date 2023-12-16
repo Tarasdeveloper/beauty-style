@@ -95,8 +95,12 @@ body {
 	border-radius: 5px;
 	cursor: pointer;
 	z-index: 100;
-	transition: transform var(--transit);
+	transition: transform var(--transit), background-color var(--transit);
 	transform: translate3d(0, 100px, 0);
+
+	&:hover {
+		background-color: rgba(114, 64, 178, 0.6);
+	}
 }
 
 #scrollUpButton:before {
