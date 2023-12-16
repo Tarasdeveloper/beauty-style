@@ -1,2 +1,0 @@
-!function(){document.addEventListener("DOMContentLoaded",()=>{let t=window.location.pathname;for(let e of document.querySelectorAll(".navigation a"))e.getAttribute("href")===t&&e.classList.add("current")});let t=document.getElementById("scrollUpButton");window.addEventListener("scroll",()=>{window.scrollY>window.innerHeight/2?t.style.transform="translate3d(0, 0, 0)":t.style.transform="translate3d(0, 100px, 0)"}),t.addEventListener("click",()=>{window.scrollTo({top:0,behavior:"smooth"})})}();
-//# sourceMappingURL=index.39ced67c.js.map
