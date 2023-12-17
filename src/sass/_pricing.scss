@@ -45,20 +45,17 @@
 	&-content_list {
 		padding: 80px 30px 55px 30px;
 		background-color: var(--white);
-		// transition: all var(--transit);
 	}
 
 	&-content_item {
-		visibility: hidden;
+		display: none;
 		max-width: 700px;
 		margin: 0 auto;
-		// opacity: 0;
-		// transition: all var(--transit);
-		transition: all 1s ease-in-out;
+		transition: all var(--transit);
 
 		&.active {
-			visibility: visible;
-			opacity: 1;
+			display: block;
+			transition: all var(--transit);
 		}
 	}
 
