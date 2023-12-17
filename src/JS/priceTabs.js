@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', function () {
 		tab.addEventListener('click', function () {
 			// Hide all tab contents
 			tabContents.forEach(content => {
-				content.style.display = 'none';
+				content.style.visibility = 'hidden';
 			});
 
 			// Show the selected tab content
 			const tabId = this.getAttribute('data-tab');
 			const selectedTabContent = document.getElementById(tabId);
-			selectedTabContent.style.display = 'block';
+			selectedTabContent.style.visibility = 'visible';
 		});
 	});
 });
