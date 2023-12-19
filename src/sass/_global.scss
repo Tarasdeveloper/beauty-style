@@ -91,6 +91,7 @@ body {
 	border-radius: 5px;
 	cursor: pointer;
 	z-index: 100;
+
 	transition: transform var(--transit), background-color var(--transit);
 	transform: translate3d(0, 100px, 0);
 
@@ -99,9 +100,8 @@ body {
 	}
 }
 
-#scrollUpButton:before {
-	content: '\02c4';
-	font-size: 24px;
-	line-height: 40px;
-	text-align: center;
+.buttonUpIcon {
+	fill: var(--white);
+	width: 16px;
+	height: 14px;
 }
