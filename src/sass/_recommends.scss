@@ -51,16 +51,21 @@
 		}
 	}
 
+	&_list-eyebrows {
+		padding-left: 20px;
+	}
+
 	&_list-client {
+		padding-left: 20px;
 		&_item {
-			list-style: inside;
+			list-style: outside;
 			font-size: 15px;
 		}
 	}
 
 	&_list-eyebrows {
 		&_item {
-			list-style: inside;
+			list-style: outside;
 			font-size: 15px;
 		}
 	}
@@ -68,5 +73,57 @@
 	&_depilation-subtitle {
 		color: var(--title-color);
 		font-size: 16px;
+		text-align: center;
+		max-width: 745px;
+		font-weight: 600;
+		margin-bottom: 15px;
+		line-height: 1.4;
+	}
+
+	&_depilation-aside_block {
+		display: flex;
+		margin-bottom: 15px;
+	}
+
+	&_depilation-aside_title {
+		width: 200px;
+		padding: 15px;
+		color: var(--title-color);
+		font-size: 16px;
+		font-weight: 600;
+		display: flex;
+		flex-shrink: 0;
+		background-color: var(--bg-gray);
+	}
+
+	&_depilation-aside_list {
+		padding-left: 20px;
+	}
+
+	&_depilation-aside_item {
+		font-size: 14px;
+		list-style: outside;
+	}
+	&_depilation-bottom-text {
+		font-weight: 600;
+		color: var(--title-color);
+		font-size: 16px;
+		line-height: 1.4;
+		margin-bottom: 10px;
+	}
+	&_depilation-bottom-title {
+		font-weight: 600;
+		color: var(--title-color);
+		font-size: 16px;
+		padding-left: 10%;
+		margin-bottom: 5px;
+	}
+	&_depilation-bottom-list {
+		font-weight: 600;
+		color: var(--title-color);
+		font-size: 15px;
+		line-height: 1.4;
+		list-style: outside;
+		padding-left: 20px;
 	}
 }
