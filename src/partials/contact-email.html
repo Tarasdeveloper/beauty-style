@@ -1,40 +1,45 @@
-<section class="contacts">
+<section class="contacts" id="contacts">
 	<div class="container">
 		<div class="contacts-inner">
 			<div class="contacts-address_block">
-				<h2 class="contacts-title">contacts</h2>
+				<h2 class="contacts-title">Contacts</h2>
 				<ul class="contacts-list">
 					<li class="contacts-item">
 						<svg class="contacts-icon">
 							<use href="images/sprite.svg#salon_chair" />
 						</svg>
 						<div class="contacts-wrapper">
-							<a class="contacts-phone_link" href="tel:+729 458 575">
-								729 458 575
+							<a class="contacts-link" href="tel:+729 458 575">
+								729-458-575
 							</a>
-							<p class="contacts-phone_link-text">You can call us anytime</p>
+							<p class="contacts-subtitle">You can call us anytime</p>
 						</div>
 					</li>
+
 					<li class="contacts-item">
 						<svg class="contacts-icon">
 							<use href="images/sprite.svg#salon_chair" />
 						</svg>
 						<a
-							class="contacts-address_link"
+							class="contacts-link"
 							href="https://www.google.com/maps/place/Lawendowa+8,+80-840+Gda%C5%84sk,+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/@54.353038,18.6518685,17.17z/data=!4m6!3m5!1s0x46fd737514d516f1:0x5e8c6b448a693dea!8m2!3d54.3528503!4d18.652935!16s%2Fg%2F11c259y140?hl=ru&entry=ttu"
 						>
 							Lawendowa 8, 80-840 Gdańsk, Polska
 						</a>
 					</li>
+
 					<li class="contacts-item">
 						<svg class="contacts-icon" width="60" height="60">
 							<use href="images/sprite.svg#phone" />
 						</svg>
 						<div class="contacts-wrapper">
-							<a class="contacts-mail_link" href="mailto:info@demolink.org">
-								info@demolink.org
+							<a
+								class="contacts-link"
+								href="mailto:nadia.khylko@gmail.com"
+							>
+								nadia.khylko@gmail.com
 							</a>
-							<p class="contacts-mail_link-text">
+							<p class="contacts-subtitle">
 								Feel free to email us your questions
 							</p>
 						</div>
@@ -42,13 +47,15 @@
 				</ul>
 			</div>
 
-			<form class="contacts-form">
-				<h2 class="contacts-form_title">GET IN TOUCH</h2>
-				<input class="contacts-input" type="text" placeholder="Name" />
-				<input class="contacts-input" type="email" placeholder="Email" />
-				<textarea class="contacts-input" placeholder="Message"></textarea>
-				<button type="submit">send message</button>
-			</form>
+			<div class="contacts-form_block">
+				<h2 class="contacts-title">GET IN TOUCH</h2>
+				<form class="contacts-form">
+					<input class="contacts-form_input" type="text" placeholder="Name" required />
+					<input class="contacts-form_input" type="email" placeholder="Email" required/>
+					<textarea class="contacts-form_input textarea" placeholder="Message" required></textarea>
+					<button class="contacts-form_button" type="submit">send message</button>
+				</form>
+			</в>
 		</div>
 	</div>
 </section>
