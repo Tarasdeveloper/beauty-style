@@ -33,6 +33,18 @@
 		font-size: 22px;
 		line-height: 1.18;
 		font-weight: 600;
+
+		&:hover .call::after {
+			transform: rotate(175deg) translate(15px, 15px);
+		}
+
+		&:hover .map::after {
+			transform: translate(-45px, 2px);
+		}
+
+		&:hover .plane::after {
+			transform: rotate(-90deg) translateY(-40px);
+		}
 	}
 
 	&-icon {
@@ -42,12 +54,54 @@
 		height: 60px;
 		margin-right: 30px;
 		fill: var(--title-color);
+		position: relative;
+		z-index: 1;
+	}
+
+	&-icon_wrap {
+		position: relative;
+
+		&::after {
+			position: absolute;
+			content: '';
+			top: 30%;
+			left: 58%;
+			z-index: -1;
+			transition: transform 0.6s ease-in-out;
+		}
+
+		&.call::after {
+			border-color: transparent transparent #c9c0d5 transparent;
+			width: 0;
+			height: 0;
+			border-width: 0 12px 22px 12px;
+			border-style: solid;
+			transform: rotate(137.76deg) translate(0, 0);
+			z-index: 0;
+		}
+
+		&.map::after {
+			width: 24px;
+			height: 24px;
+			background-color: #c9c0d5;
+			border-radius: 50%;
+			z-index: 0;
+		}
+
+		&.plane::after {
+			width: 20px;
+			height: 20px;
+			background-color: #c9c0d5;
+			z-index: 0;
+			transform: translateY(0) rotate(45deg);
+		}
 	}
 
 	&-link {
 		margin-bottom: 5px;
 		display: block;
 		transition: color var(--transit);
+		font-family: 'Montserrat', sans-serif;
 
 		&:hover,
 		&:focus,
