@@ -27,14 +27,14 @@
 		font-weight: 900;
 		margin-bottom: 40px;
 
-		animation-delay: 0.075s;
+		animation-delay: 0.5s;
 
 		&::before {
 			content: '';
 			position: absolute;
 			width: 62px;
 			height: 3px;
-			background-color: #ffffff;
+			background-color: var(--white);
 			bottom: -19px;
 			left: calc(50% - 30px);
 		}
