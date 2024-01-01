@@ -1,10 +1,3 @@
-// 				// Плавная прокрутка к целевому блоку
-// 				const targetPosition = targetElement.offsetTop;
-// 				window.scrollTo({
-// 					top: targetPosition,
-// 					// behavior: 'smooth',
-// 				});
-
 document.addEventListener('DOMContentLoaded', function () {
 	// Плавный переход по клику на ссылку
 	const links = document.querySelectorAll('a[href^="#"]');

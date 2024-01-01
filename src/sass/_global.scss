@@ -91,18 +91,21 @@ body {
 	overflow: hidden;
 }
 
-#scrollUpButton {
+.scrollUpButton {
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
 	width: 60px;
 	height: 60px;
 	background-color: var(--hover-purple);
-	color: #fff;
+	color: var(--white);
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	z-index: 100;
+	z-index: 90;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 	transition: transform var(--transit), background-color var(--transit);
 	transform: translate3d(0, 100px, 0);

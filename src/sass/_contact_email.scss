@@ -1,6 +1,7 @@
 .contacts {
 	padding: 115px 0;
 	background-color: var(--bg-gray);
+	position: relative;
 
 	&-inner {
 		display: flex;
@@ -120,6 +121,25 @@
 	&-form_block {
 		max-width: 670px;
 		width: 100%;
+
+		&::after {
+			content: '';
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(51, 51, 51, 0.9);
+			opacity: 0;
+			visibility: hidden;
+			transition: all 0.3s ease-in-out;
+			z-index: 100;
+		}
+
+		&._sending::after {
+			opacity: 1;
+			visibility: visible;
+		}
 	}
 
 	&-form {
@@ -139,6 +159,10 @@
 
 		&::placeholder {
 			color: var(--title-color);
+		}
+
+		&._error {
+			box-shadow: 0 0 15px red;
 		}
 
 		&.textarea {

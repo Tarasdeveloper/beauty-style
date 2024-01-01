@@ -1,7 +1,3 @@
-window.onload = function () {
-	window.scrollTo(0, 0);
-};
-
 function isElementInViewport(el) {
 	const rect = el.getBoundingClientRect();
 	return (
@@ -25,3 +21,7 @@ function animateIfVisible() {
 
 document.addEventListener('scroll', animateIfVisible);
 document.addEventListener('DOMContentLoaded', animateIfVisible);
+
+window.onload = function () {
+	window.scrollTo(0, 0);
+};

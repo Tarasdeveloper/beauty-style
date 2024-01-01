@@ -8,13 +8,6 @@ window.addEventListener('scroll', () => {
 	}
 });
 
-scrollUpButton.addEventListener('click', () => {
-	window.scrollTo({
-		top: 0,
-		behavior: 'smooth',
-	});
-});
-
 window.addEventListener('scroll', function () {
 	const header = document.querySelector('.header');
 
