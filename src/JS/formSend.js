@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-	const form = document.getElementById('footerForm');
+	const form = document.getElementById('form');
 	form.addEventListener('submit', formSend);
 
 	async function formSend(e) {
@@ -11,21 +11,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		if (error === 0) {
 			form.classList.add('_sending');
+
 			let response = await fetch('sendmail.php', {
 				method: 'POST',
 				body: formData,
 			});
+
 			if (response.ok) {
 				let result = await response.json();
 				alert(result.message);
 				form.reset();
 				form.classList.remove('_sending');
 			} else {
+				form.reset();
 				alert('Error happend');
 				form.classList.remove('_sending');
 			}
 		} else {
-			alert('Fill this field please');
+			alert('Fill all fields please');
 		}
 	}
 
