@@ -20,8 +20,8 @@
 		border-bottom-color: var(--default-bg);
 		box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);
 
-		& .logo {
-			font-size: clamp(20px, 2.5vw, 25px);
+		&.logo {
+			font-size: clamp(20px, 3vw, 25px);
 			&-img {
 				width: clamp(30px, 4vw, 40px);
 				margin-right: 10px;
@@ -38,6 +38,7 @@
 	&-nav {
 		display: flex;
 		width: 100%;
+		align-items: center;
 	}
 
 	&-links-wrap {
@@ -47,17 +48,43 @@
 		width: 100%;
 		justify-content: space-between;
 		margin-left: auto;
-
-		@include r($r-tb) {
-			display: none;
-		}
 	}
 
 	&-nav-links {
 		display: flex;
 		align-items: center;
 		column-gap: 50px;
-		padding-right: 20px;
+		padding-right: 30px;
+		transition: transform var(--transit);
+
+		@include r($r-dt) {
+			column-gap: 40px;
+		}
+
+		@include r($r-tb) {
+			position: fixed;
+			z-index: 8;
+			left: 0;
+			top: 82px;
+			flex-direction: column;
+			align-items: baseline;
+			width: 270px;
+			background-color: var(--default-bg);
+			border-right: 1px solid var(--default-bg);
+			box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);
+			height: 100%;
+			padding: 20px 35px;
+			row-gap: 20px;
+			transform: translateX(-100%);
+		}
+
+		&.active {
+			transform: translateX(0);
+		}
+	}
+
+	&-nav-item {
+		width: 100%;
 	}
 
 	&-nav-link {
@@ -68,6 +95,11 @@
 		text-transform: uppercase;
 		color: var(--white);
 		transition: color var(--transit);
+		display: block;
+
+		@include r($r-tb) {
+			padding: 15px 0;
+		}
 
 		&:hover,
 		&:focus,
@@ -80,9 +112,27 @@
 		}
 	}
 
+	&-nav-backdrop {
+		position: fixed;
+		top: 80px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+		display: none;
+
+		&.active {
+			display: block;
+		}
+	}
+
 	&-social-links {
 		display: flex;
 		column-gap: 25px;
+
+		@include r($r-tb) {
+			display: none;
+		}
 	}
 
 	&-social-item {
@@ -90,9 +140,11 @@
 		align-items: center;
 		justify-content: center;
 	}
+
 	&-social-link {
 		height: 100%;
 	}
+
 	.social-icon {
 		transition: fill var(--transit);
 		fill: rgba(255, 255, 255, 0.5);
