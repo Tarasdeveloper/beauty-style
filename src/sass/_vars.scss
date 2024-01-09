@@ -22,8 +22,8 @@
 
 $r-dt: 1200;
 $r-tb: 980;
-$r-tm: 790;
-$r-ph: 556;
+$r-tm: 768;
+$r-ph: 575;
 
 @mixin r($width) {
 	@media (max-width: #{$width}px) {

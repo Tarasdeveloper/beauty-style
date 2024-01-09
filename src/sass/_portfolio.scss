@@ -2,10 +2,14 @@
 	text-align: center;
 	padding: 110px 0 120px;
 
+	@include r($r-tm) {
+		padding: 60px 0;
+	}
+
 	&-title {
 		font-family: 'Montserrat', sans-serif;
 		color: var(--title-color);
-		font-size: 45px;
+		font-size: clamp(30px, 5vw, 45px);
 		line-height: 1.2;
 		margin-bottom: 30px;
 		text-transform: uppercase;
@@ -20,6 +24,10 @@
 		max-width: 670px;
 		margin: 0 auto;
 		margin-bottom: 78px;
+
+		@include r($r-tm) {
+			margin-bottom: 30px;
+		}
 	}
 
 	&-list {
@@ -33,6 +41,20 @@
 		width: calc((100% - 60px) / 4);
 		position: relative;
 		height: 320px;
+
+		@include r($r-tb) {
+			width: calc((100% - 42px) / 3);
+		}
+
+		@include r($r-tm) {
+			width: calc((100% - 20px) / 2);
+		}
+
+		@include r($r-ph) {
+			width: 100%;
+			height: auto;
+			max-height: 450px;
+		}
 
 		&:hover .portfolio-link {
 			opacity: 1;

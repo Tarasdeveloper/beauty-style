@@ -2,7 +2,7 @@
 	&-links {
 		display: flex;
 		column-gap: 15px;
-		transition: transform var(--transit);
+		transition: transform var(--transit), opacity var(--transit);
 
 		@include r($r-tb) {
 			position: fixed;
@@ -15,11 +15,13 @@
 			padding: 20px 8px;
 			border-radius: 0 0 0 15px;
 			transform: translateY(-135%);
+			opacity: 0;
 			z-index: 10;
 		}
 
 		&.active {
 			transform: translateY(0);
+			opacity: 1;
 		}
 	}
 

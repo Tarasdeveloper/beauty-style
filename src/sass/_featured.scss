@@ -2,8 +2,12 @@
 	padding: 115px 0;
 	text-align: center;
 
+	@include r($r-tm) {
+		padding: 60px 0;
+	}
+
 	&-title {
-		font-size: 45px;
+		font-size: clamp(30px, 5vw, 45px);
 		line-height: 1.2;
 		text-transform: uppercase;
 		font-family: 'Montserrat', sans-serif;
@@ -17,12 +21,21 @@
 		margin: 0 auto 78px auto;
 		color: var(--subtitle-color);
 		font-size: 15px;
+
+		@include r($r-tm) {
+			margin: 0 auto 30px auto;
+		}
 	}
 
 	&-services {
 		display: flex;
 		gap: 30px;
 		justify-content: center;
+
+		@include r($r-tm) {
+			flex-wrap: wrap;
+			gap: 20px;
+		}
 	}
 
 	&-item:hover .featured-img_wrap::before {
@@ -39,6 +52,10 @@
 		max-width: 370px;
 		height: 390px;
 		position: relative;
+
+		@include r($r-tb) {
+			height: 300px;
+		}
 
 		&::before {
 			content: '';
@@ -104,5 +121,9 @@
 	}
 	&-name {
 		padding: 25px;
+
+		@include r($r-tm) {
+			padding: 10px;
+		}
 	}
 }

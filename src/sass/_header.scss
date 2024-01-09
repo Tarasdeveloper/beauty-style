@@ -4,10 +4,13 @@
 	top: 0;
 	right: 0;
 	left: 0;
+	min-height: 75px;
+	display: flex;
+	align-items: center;
 	transition: all var(--transit);
 
 	@include r($r-tb) {
-		padding: 16px 0;
+		padding: 10px 0;
 		background: var(--default-bg);
 		border-bottom-color: var(--default-bg);
 		box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);
@@ -15,7 +18,7 @@
 	}
 
 	&-sticky {
-		padding: 16px 0;
+		padding: 10px 0;
 		background: var(--default-bg);
 		border-bottom-color: var(--default-bg);
 		box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);
