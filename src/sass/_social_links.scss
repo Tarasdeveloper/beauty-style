@@ -1,0 +1,106 @@
+.social {
+	&-links {
+		display: flex;
+		column-gap: 15px;
+		transition: transform var(--transit);
+
+		@include r($r-tb) {
+			position: fixed;
+			right: 0;
+			top: 74px;
+			flex-direction: column;
+			background-color: var(--default-bg);
+			box-shadow: 0 0 22px -4px rgba(0, 0, 0, 0.17);
+			row-gap: 10px;
+			padding: 20px 8px;
+			border-radius: 0 0 0 15px;
+			transform: translateY(-135%);
+			z-index: 10;
+		}
+
+		&.active {
+			transform: translateY(0);
+		}
+	}
+
+	&-item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 35px;
+	}
+
+	&-link {
+		height: 100%;
+		padding: 5px;
+
+		@include r($r-tb) {
+			padding: 5px 15px;
+		}
+	}
+
+	&-icon {
+		transition: fill var(--transit);
+		fill: rgba(255, 255, 255, 0.5);
+		&:hover {
+			fill: var(--white);
+		}
+	}
+}
+
+.social-button {
+	min-width: 42px;
+	height: 42px;
+	position: relative;
+	cursor: pointer;
+	margin-left: auto;
+	display: none;
+
+	@include r($r-tb) {
+		display: block;
+	}
+
+	& span,
+	&::before,
+	&::after {
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background-color: var(--white);
+		position: absolute;
+		transition: all var(--transit);
+	}
+
+	&::before {
+		content: '';
+		top: 5px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&::after {
+		content: '';
+		bottom: 5px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	& span {
+		display: block;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	&.active span {
+		transform: scale(0.7) translate(-4px, -4px);
+	}
+
+	&.active::before {
+		transform: scale(0.7) translate(-4px, 28px);
+	}
+
+	&.active::after {
+		transform: scale(0.7) translate(-4px, -29px);
+	}
+}

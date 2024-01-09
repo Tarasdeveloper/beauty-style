@@ -4,7 +4,6 @@
 	top: 0;
 	right: 0;
 	left: 0;
-	z-index: 10;
 	transition: all var(--transit);
 
 	@include r($r-tb) {
@@ -12,6 +11,7 @@
 		background: var(--default-bg);
 		border-bottom-color: var(--default-bg);
 		box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);
+		z-index: 9999;
 	}
 
 	&-sticky {
@@ -19,9 +19,10 @@
 		background: var(--default-bg);
 		border-bottom-color: var(--default-bg);
 		box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);
+		z-index: 9999;
 
 		&.logo {
-			font-size: clamp(20px, 3vw, 25px);
+			font-size: clamp(20px, 4vw, 25px);
 			&-img {
 				width: clamp(30px, 4vw, 40px);
 				margin-right: 10px;
@@ -54,18 +55,18 @@
 		display: flex;
 		align-items: center;
 		column-gap: 50px;
-		padding-right: 30px;
+		margin-right: 30px;
 		transition: transform var(--transit);
 
 		@include r($r-dt) {
-			column-gap: 40px;
+			column-gap: 32px;
 		}
 
 		@include r($r-tb) {
 			position: fixed;
 			z-index: 8;
 			left: 0;
-			top: 82px;
+			top: 74px;
 			flex-direction: column;
 			align-items: baseline;
 			width: 270px;
@@ -123,33 +124,6 @@
 
 		&.active {
 			display: block;
-		}
-	}
-
-	&-social-links {
-		display: flex;
-		column-gap: 25px;
-
-		@include r($r-tb) {
-			display: none;
-		}
-	}
-
-	&-social-item {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	&-social-link {
-		height: 100%;
-	}
-
-	.social-icon {
-		transition: fill var(--transit);
-		fill: rgba(255, 255, 255, 0.5);
-		&:hover {
-			fill: var(--white);
 		}
 	}
 }

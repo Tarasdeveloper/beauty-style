@@ -6,11 +6,22 @@
 	&-inner {
 		display: flex;
 		justify-content: space-between;
+
+		@include r($r-tb) {
+			flex-direction: column;
+			max-width: 720px;
+			margin: 0 auto;
+		}
 	}
 
 	&-address_block {
 		max-width: 390px;
 		width: 100%;
+		margin-right: 20px;
+
+		@include r($r-tb) {
+			margin-bottom: 30px;
+		}
 	}
 
 	&-title {

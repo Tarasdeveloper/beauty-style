@@ -9,6 +9,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+
+		@include r($r-tb) {
+			flex-direction: column;
+		}
 	}
 
 	&-img_wrap {
@@ -16,6 +20,10 @@
 		height: 400px;
 		display: flex;
 		position: relative;
+
+		@include r($r-tb) {
+			margin-bottom: 50px;
+		}
 
 		&::after {
 			content: '';

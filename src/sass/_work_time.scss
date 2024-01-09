@@ -17,11 +17,21 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
+		@include r($r-tb) {
+			flex-direction: column;
+		}
 	}
 
 	&-week {
 		max-width: 400px;
 		width: 100%;
+		margin-right: 20px;
+
+		@include r($r-tb) {
+			margin-bottom: 30px;
+			margin-right: 0;
+		}
 	}
 
 	&-list {
@@ -74,6 +84,21 @@
 		&:active {
 			background-color: transparent;
 			color: var(--white);
+		}
+	}
+
+	&-map {
+		max-width: 600px;
+		position: relative;
+		height: 50vh;
+		width: 100%;
+
+		& iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
 		}
 	}
 }

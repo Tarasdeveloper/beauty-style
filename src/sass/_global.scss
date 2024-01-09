@@ -23,7 +23,6 @@ body {
 }
 
 .nav-menu__btn {
-	width: 42px;
 	height: 42px;
 	align-items: center;
 	justify-content: center;
@@ -87,7 +86,7 @@ body {
 	align-items: center;
 	width: 100%;
 	color: var(--white);
-	font-size: clamp(30px, 3vw, 40px);
+	font-size: clamp(21px, 4vw, 40px);
 	font-weight: 600;
 	font-family: 'Montserrat', sans-serif;
 	transition: all var(--transit);
@@ -99,7 +98,7 @@ body {
 
 	&-img {
 		transition: all var(--transit);
-		width: clamp(45px, 4vw, 60px);
+		width: clamp(35px, 4vw, 60px);
 		margin-right: 10px;
 	}
 }

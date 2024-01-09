@@ -12,8 +12,9 @@
 	}
 
 	& .logo {
-		font-size: clamp(40px, 5vw, 60px);
+		font-size: clamp(35px, 5vw, 60px);
 		margin-bottom: 50px;
+		width: auto;
 	}
 
 	&-links {
