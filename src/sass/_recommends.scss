@@ -2,8 +2,12 @@
 	padding: 110px 0 150px;
 	background-color: #f5f5f5;
 
+	@include r($r-tb) {
+		padding: 60px 0;
+	}
+
 	&-title {
-		font-size: 45px;
+		font-size: clamp(25px, 4vw, 45px);
 		line-height: 1.2;
 		text-transform: uppercase;
 		font-family: 'Montserrat', sans-serif;
@@ -11,11 +15,26 @@
 		text-align: center;
 		margin-bottom: 92px;
 		color: var(--title-color);
+
+		@include r($r-tb) {
+			margin-bottom: 35px;
+		}
 	}
 
 	&_list {
 		background-color: var(--white);
 		padding: 80px 30px 55px;
+
+		@include r($r-dt) {
+			padding: 20px 30px 1px;
+		}
+		@include r($r-tm) {
+			padding: 20px 30px 1px;
+		}
+
+		@include r($r-ph) {
+			padding: 20px 5px 1px;
+		}
 	}
 
 	&_list-item {
@@ -24,7 +43,7 @@
 	}
 
 	&_list-title {
-		font-size: 40px;
+		font-size: clamp(22px, 4vw, 40px);
 		text-transform: inherit;
 		text-align: center;
 		font-family: 'Montserrat', sans-serif;
@@ -33,6 +52,10 @@
 		color: var(--title-color);
 		z-index: 1;
 		position: relative;
+
+		@include r($r-ph) {
+			margin-bottom: 15px;
+		}
 
 		&::after {
 			position: absolute;
@@ -43,11 +66,15 @@
 			background-repeat: no-repeat;
 			background-size: contain;
 			width: 170px;
-			height: 100px;
+			height: 55px;
 			top: 44px;
 			left: 50%;
 			transform: translateX(-50%);
 			z-index: -1;
+
+			@include r($r-ph) {
+				display: none;
+			}
 		}
 	}
 
@@ -78,11 +105,19 @@
 		font-weight: 600;
 		margin-bottom: 15px;
 		line-height: 1.4;
+
+		@include r($r-ph) {
+			font-size: 15px;
+		}
 	}
 
 	&_depilation-aside_block {
 		display: flex;
 		margin-bottom: 15px;
+
+		@include r($r-tm) {
+			flex-direction: column;
+		}
 	}
 
 	&_depilation-aside_title {
@@ -94,6 +129,10 @@
 		display: flex;
 		flex-shrink: 0;
 		background-color: var(--bg-gray);
+
+		@include r($r-tm) {
+			width: auto;
+		}
 	}
 
 	&_depilation-aside_list {
@@ -110,6 +149,10 @@
 		font-size: 16px;
 		line-height: 1.4;
 		margin-bottom: 10px;
+
+		@include r($r-tm) {
+			font-size: 15px;
+		}
 	}
 	&_depilation-bottom-title {
 		font-weight: 600;

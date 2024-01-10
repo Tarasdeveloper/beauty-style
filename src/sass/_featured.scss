@@ -2,7 +2,7 @@
 	padding: 115px 0;
 	text-align: center;
 
-	@include r($r-tm) {
+	@include r($r-tb) {
 		padding: 60px 0;
 	}
 
@@ -22,7 +22,7 @@
 		color: var(--subtitle-color);
 		font-size: 15px;
 
-		@include r($r-tm) {
+		@include r($r-tb) {
 			margin: 0 auto 30px auto;
 		}
 	}

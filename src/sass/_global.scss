@@ -32,6 +32,13 @@ body {
 	display: none;
 	margin-right: 20px;
 	cursor: pointer;
+	transition: opacity var(--transit);
+
+	&:hover,
+	&:focus,
+	&:active {
+		opacity: 0.5;
+	}
 
 	@include r($r-tb) {
 		display: flex;
@@ -89,17 +96,25 @@ body {
 	font-size: clamp(21px, 4vw, 40px);
 	font-weight: 600;
 	font-family: 'Montserrat', sans-serif;
-	transition: all var(--transit);
+	transition: opacity var(--transit);
 
 	&-link {
 		display: flex;
 		align-items: center;
+		flex-shrink: 0;
+		width: 100%;
 	}
 
 	&-img {
 		transition: all var(--transit);
 		width: clamp(35px, 4vw, 60px);
 		margin-right: 10px;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		opacity: 0.5;
 	}
 }
 
@@ -150,6 +165,11 @@ body {
 
 	transition: transform var(--transit), background-color var(--transit);
 	transform: translate3d(0, 100px, 0);
+
+	@include r($r-ph) {
+		bottom: 15px;
+		right: 15px;
+	}
 
 	&:hover {
 		background-color: rgba(114, 64, 178, 0.6);

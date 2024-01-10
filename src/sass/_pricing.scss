@@ -2,8 +2,12 @@
 	padding: 110px 0 0;
 	background-color: #f5f5f5;
 
+	@include r($r-tb) {
+		padding: 60px 0 0;
+	}
+
 	&-title {
-		font-size: 45px;
+		font-size: clamp(30px, 5vw, 45px);
 		line-height: 1.2;
 		text-transform: uppercase;
 		font-family: 'Montserrat', sans-serif;
@@ -11,6 +15,10 @@
 		text-align: center;
 		margin-bottom: 92px;
 		color: var(--title-color);
+
+		@include r($r-tb) {
+			margin-bottom: 30px;
+		}
 	}
 
 	&-header {
@@ -22,14 +30,20 @@
 		color: rgba(255, 255, 255, 0.4);
 		text-transform: uppercase;
 		gap: 10px;
-		height: 110px;
+		padding: 15px 0;
 		align-items: center;
+
+		@include r($r-tm) {
+			flex-direction: column;
+			padding: 20px 0;
+		}
 	}
 
 	&-header_item {
 		padding: 15px;
 		cursor: pointer;
 		transition: color var(--transit);
+		text-align: center;
 
 		&:hover,
 		&:focus,
@@ -45,22 +59,27 @@
 	&-content_list {
 		padding: 80px 30px 55px 30px;
 		background-color: var(--white);
+
+		@include r($r-tm) {
+			padding: 20px 0 1px;
+		}
 	}
 
 	&-content_item {
 		display: none;
 		max-width: 502px;
 		margin: 0 auto;
-		transition: all var(--transit);
+		opacity: 0;
+		transition: opacity var(--transit);
 
 		&.active {
 			display: block;
-			transition: all var(--transit);
+			opacity: 1;
 		}
 	}
 
 	&-service_title {
-		font-size: 40px;
+		font-size: clamp(22px, 5vw, 40px);
 		text-transform: uppercase;
 		text-align: center;
 		font-family: 'Montserrat', sans-serif;
@@ -69,6 +88,10 @@
 		color: var(--title-color);
 		z-index: 1;
 		position: relative;
+
+		@include r($r-tm) {
+			margin-bottom: 40px;
+		}
 
 		&::after {
 			position: absolute;
@@ -79,16 +102,22 @@
 			background-repeat: no-repeat;
 			background-size: contain;
 			width: 170px;
-			height: 100px;
+			height: 55px;
 			top: 44px;
 			left: 50%;
 			transform: translateX(-50%);
 			z-index: -1;
+
+			@include r($r-ph) {
+				top: 35px;
+				width: 135px;
+			}
 		}
 	}
 
 	&-service_list {
 		margin-bottom: 30px;
+		padding: 0 5px;
 	}
 
 	&-service_item {
@@ -97,6 +126,10 @@
 		align-items: center;
 		margin-bottom: 10px;
 		transition: color var(--transit);
+
+		@include r($r-ph) {
+			font-size: 14px;
+		}
 
 		&:hover,
 		&:focus,
@@ -112,5 +145,6 @@
 	&-service_price {
 		display: flex;
 		gap: 10px;
+		padding-left: 10px;
 	}
 }

@@ -3,20 +3,36 @@
 	background-color: var(--default-bg);
 	color: var(--white);
 
+	@include r($r-tb) {
+		padding: 60px 0;
+	}
+
+	&-inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
 	&-title {
 		text-transform: uppercase;
 		margin-bottom: 70px;
 		font-family: Montserrat, sans-serif;
-		font-size: 45px;
+		font-size: clamp(25px, 4vw, 45px);
 		font-weight: 700;
 		line-height: 1.2;
 		text-align: center;
+
+		@include r($r-tb) {
+			margin-bottom: 35px;
+		}
 	}
 
 	&-wrapper {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		width: 100%;
 
 		@include r($r-tb) {
 			flex-direction: column;

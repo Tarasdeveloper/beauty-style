@@ -6,18 +6,19 @@ document.addEventListener('DOMContentLoaded', function () {
 		tab.addEventListener('click', function () {
 			// Hide all tab contents
 			tabContents.forEach(content => {
-				content.style.display = 'none';
-			});
-
-			// Убрать активный класс со всех вкладок
-			tabs.forEach(t => {
-				t.classList.remove('active');
+				// content.style.display = 'none';
+				content.classList.remove('active');
 			});
 
 			// Show the selected tab content
 			const tabId = this.getAttribute('data-tab');
 			const selectedTabContent = document.getElementById(tabId);
-			selectedTabContent.style.display = 'block';
+			selectedTabContent.classList.add('active');
+
+			// Убрать активный класс со всех вкладок
+			tabs.forEach(t => {
+				t.classList.remove('active');
+			});
 
 			// Добавить активный класс к выбранной вкладке
 			this.classList.add('active');

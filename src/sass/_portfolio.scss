@@ -2,7 +2,7 @@
 	text-align: center;
 	padding: 110px 0 120px;
 
-	@include r($r-tm) {
+	@include r($r-tb) {
 		padding: 60px 0;
 	}
 
@@ -14,6 +14,10 @@
 		margin-bottom: 30px;
 		text-transform: uppercase;
 		letter-spacing: 0;
+
+		@include r($r-tm) {
+			margin-bottom: 15px;
+		}
 	}
 
 	&-subtitle {
@@ -25,7 +29,7 @@
 		margin: 0 auto;
 		margin-bottom: 78px;
 
-		@include r($r-tm) {
+		@include r($r-tb) {
 			margin-bottom: 30px;
 		}
 	}

@@ -3,6 +3,10 @@
 	background-color: var(--bg-gray);
 	position: relative;
 
+	@include r($r-tb) {
+		padding: 60px 0;
+	}
+
 	&-inner {
 		display: flex;
 		justify-content: space-between;
@@ -11,7 +15,12 @@
 			flex-direction: column;
 			max-width: 720px;
 			margin: 0 auto;
+			align-items: center;
 		}
+
+		// @include r($r-ph) {
+		// 	align-items: center;
+		// }
 	}
 
 	&-address_block {
@@ -21,16 +30,21 @@
 
 		@include r($r-tb) {
 			margin-bottom: 30px;
+			margin-right: 0;
 		}
 	}
 
 	&-title {
 		font-family: 'Montserrat', sans-serif;
-		font-size: 45px;
+		font-size: clamp(30px, 5vw, 45px);
 		color: var(--title-color);
 		text-transform: uppercase;
 		line-height: 1.2;
 		font-weight: 700;
+
+		@include r($r-tb) {
+			text-align: center;
+		}
 	}
 
 	&-list {
@@ -38,6 +52,11 @@
 		display: flex;
 		flex-direction: column;
 		row-gap: 65px;
+
+		@include r($r-tb) {
+			margin-top: 35px;
+			row-gap: 35px;
+		}
 	}
 
 	&-item {
@@ -57,6 +76,11 @@
 		&:hover .plane::after {
 			transform: rotate(-90deg) translateY(-40px);
 		}
+
+		@include r($r-ph) {
+			flex-direction: column;
+			text-align: center;
+		}
 	}
 
 	&-icon {
@@ -68,10 +92,19 @@
 		fill: var(--title-color);
 		position: relative;
 		z-index: 1;
+
+		@include r($r-ph) {
+			margin-bottom: 10px;
+		}
 	}
 
 	&-icon_wrap {
 		position: relative;
+
+		@include r($r-ph) {
+			width: 60px;
+			margin: 0 auto;
+		}
 
 		&::after {
 			position: absolute;
@@ -80,6 +113,10 @@
 			left: 58%;
 			z-index: -1;
 			transition: transform 0.6s ease-in-out;
+
+			@include r($r-ph) {
+				left: 93%;
+			}
 		}
 
 		&.call::after {
@@ -211,6 +248,10 @@
 		background-color: var(--default-color);
 		width: 190px;
 		transition: background-color var(--transit);
+
+		@include r($r-tb) {
+			margin: 0 auto;
+		}
 
 		&:hover,
 		&:focus,
