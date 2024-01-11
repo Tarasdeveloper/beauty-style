@@ -62,6 +62,11 @@
 		font-size: 15px;
 		font-weight: 300;
 		letter-spacing: -0.03em;
+		margin-left: 15px;
+
+		@include r($r-tb) {
+			margin-left: 0;
+		}
 	}
 
 	&-title {
@@ -100,8 +105,8 @@
 		letter-spacing: 0.002em;
 		text-transform: uppercase;
 		color: var(--default-color);
-		padding: 18px 35px;
 		background-color: var(--white);
+		padding: 18px 35px;
 		transition: color var(--transit), background-color var(--transit);
 
 		@include r($r-tm) {

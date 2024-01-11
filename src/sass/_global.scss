@@ -93,7 +93,7 @@ body {
 	align-items: center;
 	width: 100%;
 	color: var(--white);
-	font-size: clamp(21px, 4vw, 40px);
+	font-size: clamp(21px, 6vw, 40px);
 	font-weight: 600;
 	font-family: 'Montserrat', sans-serif;
 	transition: opacity var(--transit);
@@ -121,13 +121,26 @@ body {
 .animated-element {
 	opacity: 0;
 	visibility: hidden;
-	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+	overflow: hidden;
+	transition: opacity var(--transit), transform var(--transit);
 }
 
 .animated {
 	animation-fill-mode: both;
 	opacity: 1;
 	visibility: visible;
+	overflow: hidden;
+}
+
+.is-hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	// transform: translate(-50%, -50%) scaleY(0);
+}
+
+.no-scroll {
+	overflow: hidden;
 }
 
 .hidden {
@@ -143,10 +156,6 @@ body {
 	overflow: hidden;
 }
 
-.no-scroll {
-	overflow: hidden;
-}
-
 .scrollUpButton {
 	position: fixed;
 	bottom: 40px;
@@ -158,12 +167,12 @@ body {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	z-index: 90;
+	z-index: 20;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-	transition: transform var(--transit), background-color var(--transit);
+	transition: transform var(--transit), opacity var(--transit);
 	transform: translate3d(0, 100px, 0);
 
 	@include r($r-ph) {
@@ -172,7 +181,7 @@ body {
 	}
 
 	&:hover {
-		background-color: rgba(114, 64, 178, 0.6);
+		opacity: 0.6;
 	}
 }
 

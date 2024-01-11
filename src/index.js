@@ -5,3 +5,4 @@ import './JS/scrollUp';
 import './JS/animation';
 import './JS/formSend';
 import './JS/menuButton';
+import './JS/modalPromo';
