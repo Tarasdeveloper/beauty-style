@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 						progress < 0.5
 							? 4 * progress ** 3
 							: (progress - 1) * (2 * progress - 2) * (2 * progress - 2) + 1;
-					const newPosition = startPosition + distance * easeInOutCubic;
+					const newPosition = startPosition + distance * easeInOutCubic - 50;
 
 					window.scrollTo(0, newPosition);
 

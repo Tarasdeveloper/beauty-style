@@ -69,6 +69,7 @@
 		display: none;
 		max-width: 502px;
 		margin: 0 auto;
+		transition: opacity var(--transit);
 
 		&.active {
 			display: block;
