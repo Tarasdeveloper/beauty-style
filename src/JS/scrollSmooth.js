@@ -9,12 +9,22 @@ document.addEventListener('DOMContentLoaded', function () {
 			const targetElement = document.getElementById(targetId);
 
 			if (targetElement) {
-				// Плавная прокрутка с заданным временем (2 секунды)
+				// Плавная прокрутка с заданным временем (1.5 секунды)
 				let startTime;
-				const startPosition = window.scrollY;
+				const startPosition = window.scrollY + 50;
 				const targetPosition = targetElement.offsetTop;
 				const distance = targetPosition - startPosition;
 				const duration = 1500; // Время в миллисекундах
+
+				// убирание меню при нажатии на ссылку
+				const navMenuBtn = document.querySelector('.nav-menu__btn');
+				const navLinks = document.querySelector('.header-nav-links');
+				const backDrop = document.querySelector('.header-nav-backdrop');
+
+				navMenuBtn.classList.remove('active');
+				navLinks.classList.remove('active');
+				backDrop.classList.remove('active');
+				// ---------------------------------
 
 				function animateScroll(currentTime) {
 					if (startTime === undefined) {
