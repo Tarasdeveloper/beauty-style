@@ -69,11 +69,21 @@
 		display: none;
 		max-width: 502px;
 		margin: 0 auto;
-		opacity: 0;
-		transition: opacity var(--transit);
 
 		&.active {
 			display: block;
+		}
+	}
+
+	.fade-in {
+		animation: fadeIn var(--transit);
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
 			opacity: 1;
 		}
 	}

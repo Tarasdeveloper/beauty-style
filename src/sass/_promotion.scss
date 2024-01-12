@@ -30,10 +30,10 @@
 
 	&-title {
 		font-family: 'Montserrat', sans-serif;
-		font-size: 55px;
 		font-size: clamp(30px, 5vw, 55px);
 		line-height: 1.56;
 		font-weight: 700;
+
 		margin-bottom: 30px;
 	}
 
@@ -50,6 +50,7 @@
 		border: none;
 		background-color: var(--white);
 		color: var(--default-color);
+
 		transition: color var(--transit), background-color var(--transit);
 
 		@include r($r-tm) {

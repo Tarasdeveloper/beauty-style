@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		tab.addEventListener('click', function () {
 			// Hide all tab contents
 			tabContents.forEach(content => {
-				// content.style.display = 'none';
 				content.classList.remove('active');
 			});
 
@@ -14,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
 			const tabId = this.getAttribute('data-tab');
 			const selectedTabContent = document.getElementById(tabId);
 			selectedTabContent.classList.add('active');
+			selectedTabContent.classList.add('fade-in');
+
+			setTimeout(() => {
+				selectedTabContent.classList.remove('fade-in');
+			}, 300);
 
 			// Убрать активный класс со всех вкладок
 			tabs.forEach(t => {
