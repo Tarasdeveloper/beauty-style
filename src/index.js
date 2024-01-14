@@ -7,3 +7,4 @@ import './JS/formSend';
 import './JS/menuButton';
 import './JS/modalPromo';
 import './JS/modalAbout';
+import './JS/lightbox';

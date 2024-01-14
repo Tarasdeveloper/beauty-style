@@ -96,3 +96,16 @@
 		}
 	}
 }
+.sl-next,
+.sl-prev {
+	@include r($r-tm) {
+		display: none !important;
+	}
+}
+
+.sl-image {
+	@include r($r-ph) {
+		left: 0 !important;
+		width: 100% !important;
+	}
+}
