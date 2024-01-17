@@ -140,6 +140,14 @@ body {
 
 .no-scroll {
 	overflow: hidden;
+	// padding-right: calc();
+	// padding-right: 17px !important;
+	// @include r($r-tb) {
+	// 	padding-right: 0;
+	// }
+	// padding-right: calc(100vw - 100%);
+	// position: fixed;
+	// width: 100%;
 }
 
 .hidden {
@@ -182,10 +190,13 @@ body {
 	&:hover {
 		opacity: 0.6;
 	}
-}
 
-.buttonUpIcon {
-	fill: var(--white);
-	width: 16px;
-	height: 14px;
+	.scrollUpIcon {
+		fill: var(--white);
+		width: 16px;
+		height: 14px;
+	}
+	// body.no-scroll {
+	// 	right: 57;
+	// }
 }

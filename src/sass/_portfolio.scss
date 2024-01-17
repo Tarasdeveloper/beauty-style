@@ -98,7 +98,7 @@
 }
 .sl-next,
 .sl-prev {
-	@include r($r-tm) {
+	@include r($r-ph) {
 		display: none !important;
 	}
 }
