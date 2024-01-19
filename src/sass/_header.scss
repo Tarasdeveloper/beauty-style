@@ -7,10 +7,13 @@
 	min-height: 75px;
 	display: flex;
 	align-items: center;
-	transition: padding var(--transit), background-color var(--transit);
+	transition: padding-top var(--transit), padding-bottom var(--transit),
+		background-color var(--transit);
 
 	@include r($r-tb) {
-		padding: 10px 0;
+		// padding: 10px 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		background-color: var(--default-bg);
 		border-bottom-color: var(--default-bg);
 		box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);

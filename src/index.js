@@ -8,3 +8,4 @@ import './JS/menuButton';
 import './JS/modalPromo';
 import './JS/modalAbout';
 import './JS/lightbox';
+import './JS/i18n';

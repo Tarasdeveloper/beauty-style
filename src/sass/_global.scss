@@ -140,14 +140,6 @@ body {
 
 .no-scroll {
 	overflow: hidden;
-	// padding-right: calc();
-	// padding-right: 17px !important;
-	// @include r($r-tb) {
-	// 	padding-right: 0;
-	// }
-	// padding-right: calc(100vw - 100%);
-	// position: fixed;
-	// width: 100%;
 }
 
 .hidden {
@@ -165,29 +157,32 @@ body {
 
 .scrollUpButton {
 	position: fixed;
+	z-index: 20;
 	bottom: 40px;
 	right: 40px;
 	width: 60px;
 	height: 60px;
+
 	background-color: var(--hover-purple);
 	color: var(--white);
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	z-index: 20;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-	transition: transform var(--transit), opacity var(--transit);
 	transform: translate3d(0, 100px, 0);
+	transition: transform var(--transit), opacity var(--transit);
 
 	@include r($r-ph) {
 		bottom: 15px;
 		right: 15px;
 	}
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		opacity: 0.6;
 	}
 
@@ -196,7 +191,8 @@ body {
 		width: 16px;
 		height: 14px;
 	}
-	// body.no-scroll {
-	// 	right: 57;
+
+	// .has-lightbox {
+	// 	margin-right: 17px !important;
 	// }
 }
