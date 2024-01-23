@@ -11,7 +11,6 @@
 		background-color var(--transit);
 
 	@include r($r-tb) {
-		// padding: 10px 0;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		background-color: var(--default-bg);
@@ -96,6 +95,7 @@
 
 	&-nav-item {
 		width: 100%;
+		display: flex;
 	}
 
 	&-nav-link {
@@ -106,7 +106,8 @@
 		text-transform: uppercase;
 		color: var(--white);
 		transition: color var(--transit);
-		display: block;
+		display: flex;
+		flex-shrink: 0;
 
 		@include r($r-tb) {
 			padding: 15px 0;

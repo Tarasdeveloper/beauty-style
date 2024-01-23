@@ -1,19 +1,50 @@
-import i18next from 'i18next';
-import Backend from 'i18next-http-backend';
-import LanguageDetector from 'i18next-browser-languagedetector';
+const select = document.getElementById('langSelect');
+const allLang = ['en', 'uk', 'pl', 'de'];
 
-i18next
-	.use(Backend) // передаем экземпляр i18n в react-i18next, который сделает его доступным для всех компонентов через context API.
-	.use(LanguageDetector) // с помощью плагина определяем язык пользователя в браузере
-	.init({
-		resources, // передаем переводы текстов интерфейса в формате JSON
-		fallbackLng: 'en',
-		interpolation: {
-			escapeValue: false, // экранирование уже есть в React, поэтому отключаем
-		},
-		backend: {
-			loadPath: '../translation{{lng}}/{{ns}}.json',
-		},
-	});
+select.addEventListener('change', changeURLLang);
 
-export default i18next;
+async function changeURLLang() {
+	let lang = select.value;
+	location.href = window.location.pathname + '#' + lang;
+	location.reload();
+}
+
+async function changeLanguage() {
+	let hash = window.location.hash;
+	hash = hash.substring(1);
+	// console.log(hash);
+
+	if (!allLang.includes(hash)) {
+		location.href = window.location.pathname + '#en';
+		location.reload();
+	}
+	select.value = hash;
+
+	let allTranslations = {};
+
+	Promise.all([
+		import('../translation/en.js'),
+		import('../translation/pl.js'),
+		import('../translation/de.js'),
+		import('../translation/uk.js'),
+	])
+		.then(([en, pl, de, uk]) => {
+			allTranslations = {
+				en,
+				pl,
+				de,
+				uk,
+			};
+
+			const langData = allTranslations;
+			const object = langData[hash][hash];
+
+			for (let key in object) {
+				const elem = document.querySelector(`[data-t=${key}]`);
+
+				elem.textContent = object[key];
+			}
+		})
+		.catch(error => console.error('Ошибка импорта:', error));
+}
+changeLanguage();
