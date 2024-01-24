@@ -3,21 +3,32 @@
 		<form class="appointment-form">
 			<label class="appointment-label">
 				name
-				<input class="appointment-input" type="text" placeholder="Your name" />
+				<input
+					class="appointment-input"
+					name="name"
+					type="text"
+					placeholder="Your name"
+				/>
 			</label>
 			<label class="appointment-label">
 				phone
 				<input
 					class="appointment-input"
+					name="phone"
 					type="text"
 					placeholder="Your phone number"
 				/>
 			</label>
 			<label class="appointment-label">
 				date
-				<input class="appointment-input" type="text" placeholder="01/01/2024" />
+				<input
+					class="appointment-input"
+					name="date"
+					type="text"
+					placeholder="01/01/2024"
+				/>
 			</label>
-			<button class="appointment-submit-btn" type="submit">
+			<button class="appointment-submit-btn" type="submit" data-t="appoint-btn">
 				Make an appointment
 			</button>
 		</form>

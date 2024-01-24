@@ -42,7 +42,11 @@ async function changeLanguage() {
 			for (let key in object) {
 				const elem = document.querySelector(`[data-t=${key}]`);
 
-				elem.textContent = object[key];
+				if (elem) {
+					elem.innerHTML = object[key];
+				} else {
+					console.warn(`Element with data-t=${key} not found.`);
+				}
 			}
 		})
 		.catch(error => console.error('Ошибка импорта:', error));

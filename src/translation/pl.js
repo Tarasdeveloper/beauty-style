@@ -3,19 +3,23 @@ export const pl = {
 	'link-pricing': 'Ceny',
 	'link-contacts': 'Kontakty',
 
-	'hero-title': 'Brwi, Rzęsy i&nbsp;Paznokcie',
+	'hero-title': 'Brwi, Rzęsy, Paznokcie i&nbsp;Depilacja',
 	'hero-subtitle':
 		'Ucieknij od codziennej rzeczywistości i zadbaj o swoją skórę',
 
-	'appoint-name': 'imię',
-	'appoint-phone': 'telefon',
-	'appoint-date': 'date',
+	// 'appoint-plname': 'Your imię',
+	// 'appoint-plnumber': 'Your telefon',
+	// 'appoint-name': 'imię',
+	// 'appoint-phone': 'telefon',
+	// 'appoint-date': 'date',
 	'appoint-btn': 'Umów się na wizytę',
 
 	'featured-title': 'Najnowsze Oferty',
 	'featured-subtitle':
 		'Oferujemy kompleksową gamę usług paznokciowych, obejmującą stylizację, koloryzację, barwienie brwi i rzęs, depilację i wiele innych.',
-	'featured-btn': 'zarezerwuj teraz',
+	'featured-btn1': 'zarezerwuj teraz',
+	'featured-btn2': 'zarezerwuj teraz',
+	'featured-btn3': 'zarezerwuj teraz',
 	'featured-nails': 'Paznokcie',
 	'featured-any': 'Wszystkie kolory, jakie sobie wyobrażasz',
 	'featured-brows': 'Brwi i Rzęsy',
@@ -51,7 +55,7 @@ export const pl = {
 		'Kiedy przychodzisz do Beauty Style, masz gwarancję doświadczenia ciepłej i przyjaznej atmosfery naszego salonu.',
 
 	'pricing-title': 'Cennik',
-	'pricing-lash&brows': 'Rzęsy i Brwi',
+	'pricing-lashandbrows': 'Rzęsy i Brwi',
 	'pricing-femail': 'Depilacja kobieta',
 	'pricing-mail': 'Depilacja mężczyzną',
 	'pricing-manicure': 'Manicure & Pedicure',
@@ -86,7 +90,7 @@ export const pl = {
 	'pricing-maildepilat': 'Depilacja mężczyzną',
 	'pricing-ears': 'USZY',
 	'pricing-back': 'PLECY',
-	'pricing-back+arms': 'PLECY + RAMIONA',
+	'pricing-backarms': 'PLECY + RAMIONA',
 	'pricing-tors': 'TORS',
 	'pricing-stomack': 'BRZUCH',
 	'pricing-torsostomack': 'TORS + BRZUCH',
