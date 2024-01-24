@@ -43,8 +43,8 @@
 	}
 
 	&_list-title {
-		font-size: clamp(22px, 4vw, 40px);
-		text-transform: inherit;
+		font-size: clamp(22px, 4vw, 36px);
+		text-transform: uppercase;
 		text-align: center;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 500;
@@ -61,19 +61,18 @@
 			position: absolute;
 			content: '';
 			right: 0;
-			bottom: 0;
+			bottom: -38px;
+			left: 50%;
+			width: 170px;
+			height: 55px;
 			background-image: url(../images/icons/logoflat.svg);
 			background-repeat: no-repeat;
 			background-size: contain;
-			width: 170px;
-			height: 55px;
-			top: 44px;
-			left: 50%;
 			transform: translateX(-50%);
 			z-index: -1;
 
 			@include r($r-ph) {
-				display: none;
+				width: 120px;
 			}
 		}
 	}

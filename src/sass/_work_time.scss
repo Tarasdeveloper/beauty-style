@@ -95,6 +95,10 @@
 		color: var(--title-color);
 		transition: color var(--transit), background-color var(--transit);
 
+		@include r($r-tm) {
+			padding: 10px 15px;
+		}
+
 		&:hover,
 		&:focus,
 		&:active {

@@ -32,9 +32,25 @@
 		gap: 30px;
 		justify-content: center;
 
+		@include r($r-dt) {
+			gap: 20px;
+		}
 		@include r($r-tm) {
 			flex-wrap: wrap;
-			gap: 20px;
+		}
+	}
+	&-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: calc(100% / 3);
+
+		@include r($r-tm) {
+			width: calc(100% / 2);
+		}
+
+		@include r($r-ph) {
+			width: calc(100% / 1);
 		}
 	}
 
@@ -93,6 +109,14 @@
 		opacity: 0;
 		transition: all var(--transit);
 
+		@include r($r-tb) {
+			padding: 12px 12px;
+		}
+
+		@include r($r-ph) {
+			padding: 12px 8px;
+		}
+
 		&:hover {
 			color: var(--hover-purple);
 			background-color: var(--white);
@@ -120,7 +144,7 @@
 		color: var(--hover-purple);
 	}
 	&-name {
-		padding: 25px;
+		padding: 25px 5px;
 
 		@include r($r-tm) {
 			padding: 10px;

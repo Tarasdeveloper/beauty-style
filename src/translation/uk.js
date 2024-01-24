@@ -94,8 +94,8 @@ export const uk = {
 
 	'pricing-maildepilat': 'Чоловіча депіляція',
 	'pricing-mailbrows': 'МОДЕЛЮВАННЯ БРІВ',
-	'pricing-ears': 'ВУХА',
-	'pricing-nose': 'НІС',
+	'pricing-ears': 'вуха',
+	'pricing-nose': 'ніс',
 	'pricing-neck': 'ШИЯ',
 	'pricing-pits': 'ПАХВИ',
 	'pricing-back': 'СПИНА',
@@ -104,7 +104,7 @@ export const uk = {
 	'pricing-tors': 'ТУЛУБ',
 	'pricing-stomack': 'ЖИВІТ',
 	'pricing-torsostomack': 'ТУЛУБ + ЖИВІТ',
-	'pricing-linemale': 'ЛІНІЯ НА ЖИВОТІ',
+	'pricing-linemale': 'ЛІНІЯ на ЖИВОТІ',
 	'pricing-maillegs': 'НОГИ',
 	'pricing-maibut': 'СІДНИЦІ',
 	'pricing-bikinilegs': 'БІКІНІ + СІДНИЦІ',
@@ -214,10 +214,10 @@ export const uk = {
 
 	'contacts-title': 'Контакти',
 	'contacts-subtitle': 'Дзвони нам коли завгодно',
-	'contacts-address': 'Лавандова вул. 8, 80-840 Гданьск, Польща',
+	'contacts-address': 'Лавандова вул. 9, 80-840 Гданьск, Польща',
 	'contacts-emailus':
 		'Не соромтеся надсилати нам свої питання на електронну пошту.',
-	'contacts-touch': 'Зв` яжіться з нами',
+	'contacts-touch': 'Зв&rsquo;яжіться з нами',
 	'contacts-mistake1': 'Це поле обов`язкове.',
 	'contacts-mistake2': 'Це поле обов`язкове.',
 	'contacts-mistake3': 'Це поле обов`язкове.',

@@ -58,10 +58,14 @@ export const en = {
 	'pricing-femail': 'Femail depilation',
 	'pricing-mail': 'Mail depilation',
 	'pricing-manicure': 'Manicure & Pedicure',
+
 	'pricing-lashes': 'Eyelashes',
 	'pricing-laminatelashes': 'LAMINATION OF EYELASHES',
 	'pricing-botox': 'LAMINATION OF EYELASHES + COLOR + BOTOX',
-	'pricing-extense': 'EYELASH EXTENSION',
+	'pricing-extense1': 'EYELASH EXTENSION 1:1',
+	'pricing-extense2': 'EYELASH EXTENSION 2:1',
+	'pricing-extense3': 'EYELASH EXTENSION 3:1',
+	'pricing-extense4': 'EYELASH EXTENSION 4/6:1',
 	'pricing-wet': 'WET EFFECT',
 	'pricing-kim': 'EYELASH EXTENSION KIM EFFECT',
 	'pricing-tips': 'EXTENSION OF LASH TIPS',
@@ -78,22 +82,31 @@ export const en = {
 	'pricing-chin': 'CHIN',
 	'pricing-neck': 'NECK',
 	'pricing-armpits': 'ARMPITS',
-	'pricing-arms': 'ARMS',
+	'pricing-arms1': 'ARMS',
+	'pricing-arms2': 'ARMS 1/2',
 	'pricing-line': 'ABDOMINAL LINE',
 	'pricing-lumbar': 'LUMBAR',
 	'pricing-legs': 'WHOLE LEGS',
+	'pricing-legs2': 'LEGS 1/2',
 	'pricing-bikinitop': 'TRADICIONAL BIKINI',
 	'pricing-bikinideep': 'DEEP BIKINI',
 	'pricing-butt': 'BUTTOCKS',
 
 	'pricing-maildepilat': 'Mail depilation',
+	'pricing-mailbrows': 'EYEBROW SHAPING',
 	'pricing-ears': 'EARS',
+	'pricing-nose': 'NOSE',
+	'pricing-neck': 'NECK',
+	'pricing-pits': 'BACK',
 	'pricing-back': 'BACK',
 	'pricing-backarms': 'BACK + ARMS',
+	'pricing-hands': 'ARMS',
 	'pricing-tors': 'TORSO',
 	'pricing-stomack': 'STOMACK',
 	'pricing-torsostomack': 'TORSO + STOMACK',
+	'pricing-linemale': 'ABDOMINAL LINE',
 	'pricing-maillegs': 'LEGS',
+	'pricing-maibut': 'BUTTOCKS',
 	'pricing-bikinilegs': 'BIKINI + BUTTOCKS',
 
 	'pricing-manicuretitle': 'Manicure & Pedicure',
@@ -101,10 +114,12 @@ export const en = {
 	'pricing-hybridpicture': 'HYBRID MANICURE + PICTURE',
 	'pricing-conditioner': 'MANICURE WITH A CONDITIONER',
 	'pricing-french': 'FRENCH',
-	'pricing-gel': 'GEL REFILL + HYBRID',
+	'pricing-gel': 'Gel Extension + HYBRID',
+	'pricing-geladd': 'GEL REFILL + HYBRID',
 	'pricing-natural': 'GEL ON NATURAL NAILS',
 	'pricing-picturehybrid': 'HYBRID MANICURE PICTURE WITH A CONDITIONER',
 	'pricing-gelpicture': 'GEL PICTURE MANICURE WITH A CONDITIONER',
+
 	'pricing-hybridpedicure': 'HYBRID PEDICURE',
 	'pricing-pedicurefeet': 'HYBRID PEDICURE + FEET',
 	'pricing-pedicurecondicioner': 'PEDICURE WITH A CONDITIONER',
@@ -114,7 +129,7 @@ export const en = {
 	'recommends-title': 'Information for the client',
 	'recommends-check': 'Ideal client Checklist',
 	'recommends-late':
-		'Try not to be late by more than 15 minutes (if you are late by more than 15 minutes, the appointment will be canceled or rescheduled)',
+		'Try not to be late by more than 15 minutes .If you are late by more than 15 minutes, the appointment will be canceled or rescheduled.',
 	'recommends-time':
 		'If you are running late, please let us know, as time for each client is limited.',
 	'recommends-alone': 'Come alone.',
@@ -161,6 +176,7 @@ export const en = {
 		'In some cases, we can bypass the area with damage and proceed with the treatment.',
 	'recommends-varicose': 'Visible varicose veins.',
 	'recommends-pregnancy': 'The first and last trimester of pregnancy.',
+
 	'recommends-postdepilation': 'Post-depilation recommendations:',
 	'recommends-sauna':
 		'On the first day, avoid taking hot showers (baths) and using the sauna.',
@@ -173,6 +189,7 @@ export const en = {
 		'Do not apply deodorant to the depilated areas. Strictly avoid sunbathing and using tanning beds.',
 	'recommends-scrub':
 		'Do not scrub the depilated areas for the first three days after the treatment.',
+
 	'recommends-goal':
 		'After several treatments, hair grows much slower and becomes thinner and weaker, which also affects the sensitivity of the procedure! The goal of waxing is not only hair removal but also a gradual change in their quality and quantity.',
 	'recommends-difference':
@@ -198,10 +215,12 @@ export const en = {
 
 	'contacts-title': 'Contacts',
 	'contacts-subtitle': 'You can call us anytime',
-	'contacts-address': 'Lavender street 8, 80-840 Gdańsk, Poland',
+	'contacts-address': 'Lavender street 9, 80-840 Gdańsk, Poland',
 	'contacts-emailus': 'Feel free to email us your questions',
 	'contacts-touch': 'GET IN TOUCH',
-	'contacts-mistake': 'This field is required',
+	'contacts-mistake1': 'This field is required',
+	'contacts-mistake2': 'This field is required',
+	'contacts-mistake3': 'This field is required',
 	'contacts-btn': 'send message',
 
 	'footer-hidden': 'footer',

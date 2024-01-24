@@ -16,53 +16,57 @@ export const de = {
 
 	'featured-title': 'Besondere Angebote',
 	'featured-subtitle':
-		'Wir bieten eine umfassende palette von nageldienstleistungen, einschließlich styling, färben, augenbrauen und wimpern-tönung, haarentfernung und vieles mehr.',
-	'featured-btn1': 'jetzt buchen',
-	'featured-btn2': 'jetzt buchen',
-	'featured-btn3': 'jetzt buchen',
+		'Wir bieten eine umfassende Palette von Nageldienstleistungen, einschließlich Styling, Färben, Augenbrauen- und Wimpern-Tönung, Haarentfernung und vieles mehr.',
+	'featured-btn1': 'Jetzt  buchen',
+	'featured-btn2': 'Jetzt  buchen',
+	'featured-btn3': 'Jetzt  buchen',
 	'featured-nails': 'Nägel',
 	'featured-any': 'Alle farben, die du dir vorstellen kannst.',
 	'featured-brows': 'Augenbrauen & Wimpern',
 	'featured-create': 'Dein Image gestalten',
 	'featured-depilat': 'Haarentfernung',
-	'featured-treat': 'Gönn deiner haut etwas gutes.',
+	'featured-treat': 'Verwöhnen Sie Ihre Haut',
 
 	'promo-hidden': 'promotion-geschenkaktion',
-	'promo-subtitle': 'nur 3 tage',
+	'promo-subtitle': 'Nur 3 Tage',
 	'promo-title': '20% Rabatt auf Nagelstyling Dienstleistungen',
 	'promo-btn': 'mehr anzeigen',
 
 	'portfolio-title': 'Unsere Portfolio',
 	'portfolio-subtitle':
-		'Schauen sie sich das vollständige portfolio unserer arbeiten an, einschließlich nägel, augenbrauen, wimpern und mehr. Alles, was sie hier sehen, wurde von unserem team durchgeführt.',
+		'Schauen Sie sich das vollständige Portfolio unserer Arbeiten an, einschließlich Nägel, Augenbrauen, Wimpern und vielem mehr. Alles, was Sie hier sehen, wurde von unserem Team durchgeführt.',
 
 	'about-title': 'Über Uns',
 	'about-top':
-		'Beauty Style ist eines der führenden schönheitssalons in Danzig, der nicht nur von Polen, sondern auch von Ukrainern, Deutschen und vertretern vieler anderer länder besucht wird.',
+		'Beauty Style ist einer der führenden Schönheitssalons in Danzig, der nicht nur von Polen, sondern auch von Ukrainern, Deutschen und Vertretern vieler anderer Länder besucht wird.',
 	'about-bottom':
-		'Unser schönheitssalon hat sich einen unglaublichen ruf erworben, während unser professionelles team weiterhin wunder an den augen und nägeln der kunden vollbringt und ihre vorzüge durch unsere dienstleistungen betont.',
-	'about-btn': 'details anzeigen',
+		'Unser Schönheitssalon hat sich einen unglaublichen Ruf erworben, während unser professionelles Team weiterhin Wunder an den Augen und Nägeln der Kunden vollbringt und ihre Vorzüge durch unsere Dienstleistungen betont.',
+	'about-btn': 'Details anzeigen',
 
 	'equipment-hidden': 'Unsere vorteile',
 	'equipment-team': 'Freundliches Team',
 	'equipment-staff':
-		'Unser personal ist höflich und zuvorkommend. Wir streben nach exzellenz sowohl in der qualität unserer dienstleistungen als auch im umgang mit ihnen.',
+		'Unser Personal ist höflich und zuvorkommend. Wir streben nach Exzellenz sowohl in der Qualität unserer Dienstleistungen als auch im Umgang mit Ihnen.',
 	'equipment-equip': 'Beste Ausstattung',
 	'equipment-best':
-		'Wir verwenden die beste ausrüstung und produkte, um unseren kunden das höchste maß an schönheitsdienstleistungen zu bieten.',
+		'Wir verwenden die beste Ausrüstung und Produkte, um unseren Kunden das höchste Maß an Schönheitsdienstleistungen zu bieten.',
 	'equipment-sphere': 'Perfekte Atmosphäre',
 	'equipment-atmosphere':
-		'Wenn sie zu Beauty Style kommen, ist ihnen eine warme und freundliche atmosphäre in unserem salon garantiert.',
+		'Wenn Sie zu Beauty Style kommen, erleben Sie garantiert die warme und freundliche Atmosphäre unseres Salons.',
 
 	'pricing-title': 'Preise',
 	'pricing-lashandbrows': 'Wimpern & Augenbrauen',
 	'pricing-femail': 'Haarentfernung für frauen',
 	'pricing-mail': 'Haarentfernung für männer',
 	'pricing-manicure': 'Maniküre & Pediküre',
+
 	'pricing-lashes': 'Wimpern',
 	'pricing-laminatelashes': 'Augenwimpernlaminierung',
 	'pricing-botox': 'Wimpernlaminierung + Farbe + Botox',
-	'pricing-extense': 'Wimpernverlängerung',
+	'pricing-extense1': 'Wimpernverlängerung 1:1',
+	'pricing-extense2': 'Wimpernverlängerung 2:1',
+	'pricing-extense3': 'Wimpernverlängerung 3:1',
+	'pricing-extense4': 'Wimpernverlängerung 4/6:1',
 	'pricing-wet': 'Wet Effect',
 	'pricing-kim': 'Wimpernverlängerung kim effekt',
 	'pricing-tips': 'Verlängerung der Wimpernspitzen',
@@ -79,22 +83,31 @@ export const de = {
 	'pricing-chin': 'Kinn',
 	'pricing-neck': 'Hals',
 	'pricing-armpits': 'Achselhöhlen',
-	'pricing-arms': 'Arme',
+	'pricing-arms1': 'Arme',
+	'pricing-arms2': 'Arme 1/2',
 	'pricing-line': 'Bauchlinie',
 	'pricing-lumbar': 'Lendenwirbel',
 	'pricing-legs': 'Ganze Beine',
+	'pricing-legs2': 'Beine 1/2',
 	'pricing-bikinitop': 'Traditioneller Bikini',
 	'pricing-bikinideep': 'Tiefer Bikini',
 	'pricing-butt': 'Gesäß',
 
 	'pricing-maildepilat': 'Haarentfernung für Männer',
+	'pricing-mailbrows': 'Formgebung der Augenbrauen',
 	'pricing-ears': 'Ohren',
+	'pricing-nose': 'Nase',
+	'pricing-neck': 'Hals',
+	'pricing-pits': 'Achselhöhlen',
 	'pricing-back': 'Rücken',
 	'pricing-backarms': 'Rücken + Arme',
+	'pricing-hands': 'Hände',
 	'pricing-tors': 'Torso',
 	'pricing-stomack': 'Bauch',
 	'pricing-torsostomack': 'Torso + Bauch',
+	'pricing-linemale': 'Bauchlinie',
 	'pricing-maillegs': 'Beine',
+	'pricing-maibut': 'Gesäß',
 	'pricing-bikinilegs': 'Bikini + Gesäß',
 
 	'pricing-manicuretitle': 'Maniküre & Pediküre',
@@ -103,9 +116,11 @@ export const de = {
 	'pricing-conditioner': 'Maniküre mit einem conditioner',
 	'pricing-french': 'Französische Maniküre',
 	'pricing-gel': 'Gel-Auffüllung + Hybrid',
+	'pricing-geladd': 'Ergänzung mit Gel + Hybrid',
 	'pricing-natural': 'Gel auf natürlichen Nägeln',
 	'pricing-picturehybrid': 'Hybrid-Maniküre mit Bild und Conditioner',
 	'pricing-gelpicture': 'Gel-Bild-Maniküre mit Conditioner',
+
 	'pricing-hybridpedicure': 'Hybrid-Pediküre',
 	'pricing-pedicurefeet': 'Hybrid-Pediküre + Fußpflege',
 	'pricing-pedicurecondicioner': 'Pedicure mit einem Conditioner',
@@ -115,77 +130,80 @@ export const de = {
 	'recommends-title': 'Information für den Kunden',
 	'recommends-check': 'Ideale Kundencheckliste',
 	'recommends-late':
-		'Versuchen Sie nicht mehr als 15 Minuten zu spät zu kommen. (Bei einer Verspätung von mehr als 15 Minuten wird der Termin abgesagt oder neu geplant)',
+		'Versuchen Sie, nicht mehr als 15 Minuten zu spät zu kommen. Wenn Sie mehr als 15 Minuten zu spät sind, wird der Termin abgesagt oder neu geplant.',
 	'recommends-time':
-		'Wenn sie sich verspäten, lassen sie es uns bitte wissen, da die zeit für jeden kunden begrenzt ist.',
-	'recommends-alone': 'Kommen sie alleine.',
+		'Wenn Sie sich verspäten, lassen Sie es uns bitte wissen, da die Zeit für jeden Kunden begrenzt ist.',
+	'recommends-alone': 'Kommen Sie alleine.',
 	'recommends-sick':
-		'Wenn sie krank werden, denken Sie bitte daran, uns zu informieren und ihren termin neu zu planen.',
+		'Wenn Sie krank werden, denken Sie bitte daran, uns zu informieren und Ihren Termin neu zu planen.',
 	'recommends-plan':
-		'Denken sie daran, dass hochwertige arbeit zeit und Geduld erfordert, also planen sie entsprechend im voraus.',
-	'recommends-trim': 'Warum können die augenbrauen nicht getrimmt werden?',
+		'Denken Sie daran, dass hochwertige Arbeit Zeit und Geduld erfordert. Planen Sie entsprechend im Voraus.',
+
+	'recommends-trim': 'Warum können die Augenbrauen nicht getrimmt werden?',
 	'recommends-hair':
-		'Das haar hat von natur aus eine dünne, versiegelte spitze.',
+		'Das Haar hat von Natur aus eine dünne, versiegelte Spitze.',
 	'recommends-disrupts':
 		'Das Trimmen der Augenbrauen stört ihre Struktur. Dicke, getrimmte Haare liegen nicht gut und hängen, was im Laufe der Zeit zu einer Veränderung der Wachstumsrichtung führen kann.',
 	'recommends-structure':
-		'Aufgrund der durch das färben verursachten veränderung der struktur wird die augenbrauenfarbe ungleichmäßig sein. Getrimmte haare erscheinen heller und ohne eine dünnere spitze.',
+		'Aufgrund der durch das Färben verursachten Veränderung der Struktur wird die Farbe der Augenbrauen ungleichmäßig sein. Getrimmte Haare erscheinen heller und ohne eine dünnere Spitze.',
 	'recommends-dye':
-		'Gleichzeitig wird das pigment schneller verblassen, was die haltbarkeit der farbe reduziert.',
+		'Gleichzeitig wird das Pigment schneller verblassen, was die Haltbarkeit der Farbe reduziert.',
 	'recommends-fence':
-		'Ein gerader trimmstrich wird innerhalb einer woche wie ein zaun aussehen, da die haare unterschiedliche wachstumsphasen durchlaufen.',
+		'Ein gerader Trimmstrich wird innerhalb einer Woche wie ein Zaun aussehen, da die Haare unterschiedliche Wachstumsphasen durchlaufen.',
 	'recommends-whiskers':
-		'Im berühren werden die haare dick und stachelig sein, ähnlich wie schnurrhaare.',
+		'Im Tastgefühl werden sich die Haare dick und stachelig anfühlen, ähnlich wie Schnurrhaare.',
 
 	'recommends-depilation': 'Haarentfernung',
 	'recommends-before':
-		'Vor der haarentfernung ist es wichtig, die haut auf eine effektive und minimal traumatische haarentfernung vorzubereiten. Einige vorbereitungsstufen sollten mehrere tage oder sogar wochen vor dem eingriff eingeleitet werden. Planen sie ihre haarentfernungsbehandlung mindestens einen monat im voraus, um sicherzustellen, dass Ihre Haut gesund und glatt bleibt.',
-	'recommends-predepilation': 'Empfehlungen vor der haarentfernung:',
+		'Vor der Haarentfernung ist es wichtig, die Haut auf eine effektive und minimal traumatische Haarentfernung vorzubereiten. Einige Vorbereitungsstufen sollten mehrere Tage oder sogar Wochen vor dem Eingriff eingeleitet werden. Planen Sie Ihre Haarentfernungsbehandlung mindestens einen Monat im Voraus, um sicherzustellen, dass Ihre Haut gesund und glatt bleibt.',
+	'recommends-predepilation': 'Empfehlungen vor der Haarentfernung:',
 	'recommends-length':
-		'Die haarlänge vor der ersten haarentfernung sollte mindestens 6-7 mm betragen, was etwa 2 wochen nach dem rasieren entspricht.',
+		'Die Haarlänge vor der ersten Haarentfernung sollte mindestens 6-7 mm betragen, was etwa 2 Wochen nach dem Rasieren entspricht.',
 	'recommends-subsequent':
-		'Für nachfolgende behandlungen ist eine länge von 5-6 mm ausreichend, da die haare dünner sind und sich leichter entfernen lassen.',
+		'Für nachfolgende Behandlungen ist eine Länge von 5-6 mm ausreichend, da die Haare dünner sind und sich leichter entfernen lassen.',
 	'recommends-peels':
-		'Drei tage vor der behandlung wird nicht empfohlen, peelings durchzuführen.',
+		'Drei Tage vor der Behandlung wird nicht empfohlen, Peelings durchzuführen.',
 	'recommends-sunbathe':
-		'Es wird nicht empfohlen, sieben tage vorher zu sonnenbaden oder sonnenbänke zu besuchen.',
+		'Es wird nicht empfohlen, sieben Tage vorher zu sonnenbaden oder Sonnenbänke zu besuchen.',
 	'recommends-oils':
-		'Am tag der behandlung wird davon abgeraten, ölhaltige balsame oder Öle zu verwenden.',
+		'Am Tag der Behandlung wird davon abgeraten, ölhaltige Balsame oder Öle zu verwenden.',
 	'recommends-razor':
-		'Verwenden sie niemals einen rasierer, enthaarungscreme oder epilierer zwischen den behandlungen.',
+		'Verwenden Sie niemals einen Rasierer, Enthaarungscreme oder Epilierer zwischen den Behandlungen.',
 
 	'recommends-contraindications':
 		'Kontraindikationen für die Behandlung. Vorhandensein von:',
 	'recommends-burns':
-		'Offene wunden, pickel, schnitte, verbrennungen (einschließlich sonnenbrand) auf der haut.',
+		'Offene Wunden, Pickel, Schnitte, Verbrennungen (einschließlich Sonnenbrand) auf der Haut.',
 	'recommends-bypass':
-		'In einigen fällen können wir den bereich mit schäden umgehen und mit der behandlung fortfahren.',
-	'recommends-varicose': 'Sichtbare krampfadern.',
-	'recommends-pregnancy': 'Das erste und letzte trimester der schwangerschaft.',
-	'recommends-postdepilation': 'Empfehlungen nach der haarentfernung:',
+		'In einigen Fällen können wir die beschädigte Stelle umgehen und mit der Behandlung fortfahren.',
+	'recommends-varicose': 'Sichtbare Krampfadern.',
+	'recommends-pregnancy': 'Das erste und letzte Trimester der Schwangerschaft.',
+
+	'recommends-postdepilation': 'Empfehlungen nach der Haarentfernung:',
 	'recommends-sauna':
-		'Am ersten tag vermeiden sie heiße duschen (bäder) und die nutzung der sauna.',
+		'Am ersten Tag sollten Sie heiße Duschen (Bäder) und Saunabesuche vermeiden.',
 	'recommends-prohibit':
-		'Am ersten tag ist die verwendung eines rasierers strengstens untersagt.',
-	'recommends-sports': 'Sportliche aktivitäten sollten vermieden werden.',
+		'Am ersten Tag ist die Verwendung eines Rasierers strengstens untersagt.',
+	'recommends-sports': 'Treibe keinen Sport.',
 	'recommends-clothing':
-		'Am tag nach dem wachsen tragen sie bequeme baumwollunterwäsche und lockere, atmungsaktive kleidung.',
+		'Am Tag nach dem Wachsen sollten Sie bequeme Baumwollunterwäsche und lockere, atmungsaktive Kleidung tragen.',
 	'recommends-deodorant':
-		'Vermeiden sie das auftragen von deodorant auf die enthaarten bereiche. Sonnenbaden und die nutzung von sonnenbänken ist streng untersagt.',
+		'Tragen Sie kein Deodorant auf die enthaarten Bereiche auf. Vermeiden Sie strikt das Sonnenbaden und die Nutzung von Sonnenbänken.',
 	'recommends-scrub':
-		'Die enthaarten bereiche sollten in den ersten drei tagen nach der behandlung nicht geschrubbt werden.',
+		'Reiben Sie die enthaarten Bereiche in den ersten drei Tagen nach der Behandlung nicht ab.',
+
 	'recommends-goal':
-		'Nach mehreren behandlungen wächst das haar viel langsamer und wird dünner und schwächer, was auch die empfindlichkeit des verfahrens beeinflusst! Das ziel des waxings ist nicht nur die haarentfernung, sondern auch eine allmähliche veränderung in ihrer qualität und quantität.',
+		'Nach mehreren Behandlungen wächst das Haar viel langsamer und wird dünner und schwächer, was auch die Empfindlichkeit der Prozedur beeinflusst! Das Ziel der Haarentfernung mit Wachs ist nicht nur die Haarentfernung, sondern auch eine allmähliche Veränderung in ihrer Qualität und Menge.',
 	'recommends-difference':
-		'Nach 4-5 behandlungen werden sie einen signifikanten unterschied feststellen:',
-	'recommends-softer': 'Die haare werden weicher und heller.',
+		'Nach 4-5 Behandlungen werden Sie einen signifikanten Unterschied feststellen:',
+	'recommends-softer': 'Das Haar wird weicher und heller.',
 	'recommends-remnants':
-		'Die verbliebenen haare haben keinen groben schnitt, wie es bei einem rasierer der fall ist.',
+		'Die Überreste der Haare haben keinen groben Schnitt, wie bei einem Rasierer.',
 	'recommends-tolerated':
-		'Die Haut wird empfänglicher für die haarentfernung, und das verfahren wird besser vertragen.',
+		'Die Haut wird empfänglicher für die Haarentfernung, und die Prozedur wird besser vertragen.',
 	'recommends-shortened':
-		'Durch die reduzierte menge an haaren verkürzt sich auch die dauer des verfahrens.',
-	'recommends-silky': 'Die haut wird glatt, elastisch und seidig.',
+		'Aufgrund der reduzierten Haarmenge wird auch die Dauer der Prozedur verkürzt.',
+	'recommends-silky': 'Die Haut wird glatt, elastisch und seidig.',
 
 	'work-title': 'Kontakt und arbeitszeiten',
 	'work-monday': 'montag',
@@ -199,16 +217,18 @@ export const de = {
 
 	'contacts-title': 'Kontakt',
 	'contacts-subtitle': 'Sie können uns jederzeit anrufen.',
-	'contacts-address': 'Lavendelstraße 8, 80-840 Danzig, Polen',
+	'contacts-address': 'Lavendelstraße 9, 80-840 Danzig, Polen',
 	'contacts-emailus':
-		'Fühlen sie sich frei, uns ihre fragen per e-mail zu senden.',
+		'Fühlen Sie sich frei, uns Ihre Fragen per E-Mail zu senden.',
 	'contacts-touch': 'Kommen sie in kontakt',
-	'contacts-mistake': 'Dieses feld ist erforderlich.',
-	'contacts-btn': 'nachricht senden',
+	'contacts-mistake1': 'Dieses Feld ist erforderlich.',
+	'contacts-mistake2': 'Dieses Feld ist erforderlich.',
+	'contacts-mistake3': 'Dieses Feld ist erforderlich.',
+	'contacts-btn': 'Nachricht senden',
 
 	'footer-hidden': 'Fußzeile',
 	'footer-pricing': 'Preise',
 	'footer-contacts': 'Kontakt',
 	'footer-gallery': 'Galerie',
-	'footer-about': 'Über',
+	'footer-about': 'Über uns',
 };
