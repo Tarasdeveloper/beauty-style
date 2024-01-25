@@ -54,8 +54,6 @@
 	&-links-wrap {
 		display: flex;
 		align-items: center;
-		// max-width: 700px;
-		// width: 100%;
 		justify-content: space-between;
 		margin-left: auto;
 	}
@@ -68,7 +66,7 @@
 		transition: transform var(--transit);
 
 		@include r($r-dt) {
-			column-gap: 28px;
+			column-gap: 20px;
 		}
 
 		@include r($r-tb) {
@@ -94,7 +92,6 @@
 	}
 
 	&-nav-item {
-		width: 100%;
 		display: flex;
 	}
 
@@ -145,7 +142,7 @@
 		cursor: pointer;
 		border: none;
 		background-color: transparent;
-		max-width: 100px;
+		width: 110px;
 
 		& option {
 			background-color: var(--default-bg);
