@@ -16,7 +16,7 @@
 	}
 
 	&-title {
-		position: relative;
+		padding: 0 20px;
 		font-size: clamp(27px, 7vw, 70px);
 		text-transform: uppercase;
 		font-family: 'Montserrat', sans-serif;
@@ -28,22 +28,21 @@
 		margin-bottom: 40px;
 		animation-delay: 0.3s;
 
-		&::before {
-			content: '';
-			position: absolute;
-			width: 62px;
-			height: 3px;
-			background-color: var(--white);
-			bottom: -19px;
-			left: calc(50% - 30px);
+		@include r($r-ph) {
+			padding: 0;
 		}
 	}
 
 	&-subtitle {
+		padding: 0 20px;
 		color: var(--white);
 		font-size: 18px;
 		letter-spacing: -0.03em;
 		font-weight: 400;
 		animation-delay: 1s;
+
+		@include r($r-ph) {
+			padding: 0;
+		}
 	}
 }

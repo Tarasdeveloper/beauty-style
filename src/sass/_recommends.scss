@@ -43,25 +43,25 @@
 	}
 
 	&_list-title {
-		font-size: clamp(22px, 4vw, 36px);
+		font-size: clamp(16px, 4vw, 27px);
 		text-transform: uppercase;
 		text-align: center;
 		font-family: 'Montserrat', sans-serif;
-		font-weight: 500;
+		font-weight: 600;
 		margin-bottom: 60px;
 		color: var(--title-color);
 		z-index: 1;
 		position: relative;
 
 		@include r($r-ph) {
-			margin-bottom: 15px;
+			margin-bottom: 20px;
 		}
 
 		&::after {
 			position: absolute;
 			content: '';
 			right: 0;
-			bottom: -38px;
+			bottom: -45px;
 			left: 50%;
 			width: 170px;
 			height: 55px;
@@ -151,6 +151,7 @@
 
 		@include r($r-tm) {
 			font-size: 15px;
+			padding-left: 15px;
 		}
 	}
 	&_depilation-bottom-title {

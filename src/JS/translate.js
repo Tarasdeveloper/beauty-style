@@ -12,7 +12,6 @@ async function changeURLLang() {
 async function changeLanguage() {
 	let hash = window.location.hash;
 	hash = hash.substring(1);
-	// console.log(hash);
 
 	if (!allLang.includes(hash)) {
 		location.href = window.location.pathname + '#en';
