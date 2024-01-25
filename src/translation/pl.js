@@ -4,8 +4,7 @@ export const pl = {
 	'link-contacts': 'Kontakty',
 
 	'hero-title': 'Brwi, Rzęsy, Paznokcie i&nbsp;Depilacja',
-	'hero-subtitle':
-		'Ucieknij od codziennej rzeczywistości i zadbaj o swoją skórę',
+	'hero-subtitle': 'Ucieknij od codziennego zgiełku i zadbaj o siebie.',
 
 	// 'appoint-plname': 'Your imię',
 	// 'appoint-plnumber': 'Your telefon',
@@ -37,8 +36,7 @@ export const pl = {
 		'Sprawdź pełne portfolio naszych prac, obejmujące paznokcie, brwi, rzęsy i wiele więcej. Wszystko, co widzisz tutaj, zostało wykonane przez nasz zespół.',
 
 	'about-title': 'O Nas',
-	'about-top':
-		'Beauty Style to jeden z najlepszych salonów urody w Gdańsku, odwiedzany nie tylko przez Polaków, ale także przez Ukraińców, Niemców i przedstawicieli wielu innych krajów.',
+	'about-top': 'Beauty Style to jeden z najlepszych salonów urody w Gdańsku.',
 	'about-bottom':
 		'Nasz salon urody zyskał niesamowitą reputację, ponieważ nasz profesjonalny zespół nadal zdumiewa klientów poprzez pracę nad oczami i paznokciami, podkreślając ich atuty za pomocą naszych usług',
 	'about-btn': 'więcej informacji',

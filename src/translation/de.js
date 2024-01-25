@@ -4,8 +4,7 @@ export const de = {
 	'link-contacts': 'Kontakte',
 
 	'hero-title': 'Augenbrauen, Wimpern, Nägel&nbsp;& Haarentfernung',
-	'hero-subtitle':
-		'Entfliehe dem hektischen Alltag und gönn deiner Haut eine Auszeit.',
+	'hero-subtitle': 'Entfliehe dem hektischen Alltag und gönn dir eine Auszeit.',
 
 	// 'appoint-plname': 'Your name',
 	// 'appoint-plnumber': 'Your phone number',
@@ -14,7 +13,7 @@ export const de = {
 	// 'appoint-date': 'datum',
 	'appoint-btn': 'Termin vereinbaren',
 
-	'featured-title': 'Besondere Angebote',
+	'featured-title': 'Unsere leistungen',
 	'featured-subtitle':
 		'Wir bieten eine umfassende Palette von Nageldienstleistungen, einschließlich Styling, Färben, Augenbrauen- und Wimpern-Tönung, Haarentfernung und vieles mehr.',
 	'featured-btn1': 'Jetzt  buchen',
@@ -34,11 +33,11 @@ export const de = {
 
 	'portfolio-title': 'Unsere Portfolio',
 	'portfolio-subtitle':
-		'Schauen Sie sich das vollständige Portfolio unserer Arbeiten an, einschließlich Nägel, Augenbrauen, Wimpern und vielem mehr. Alles, was Sie hier sehen, wurde von unserem Team durchgeführt.',
+		'Schauen Sie sich das Portfolio unserer Arbeiten an, einschließlich Nägel, Augenbrauen, Wimpern und vielem mehr. Alles, was Sie hier sehen, wurde von unserem Team durchgeführt.',
 
 	'about-title': 'Über Uns',
 	'about-top':
-		'Beauty Style ist einer der führenden Schönheitssalons in Danzig, der nicht nur von Polen, sondern auch von Ukrainern, Deutschen und Vertretern vieler anderer Länder besucht wird.',
+		'Beauty Style ist einer der führenden Schönheitssalons in Danzig.',
 	'about-bottom':
 		'Unser Schönheitssalon hat sich einen unglaublichen Ruf erworben, während unser professionelles Team weiterhin Wunder an den Augen und Nägeln der Kunden vollbringt und ihre Vorzüge durch unsere Dienstleistungen betont.',
 	'about-btn': 'Details anzeigen',
@@ -151,7 +150,7 @@ export const de = {
 	'recommends-fence':
 		'Ein gerader Trimmstrich wird innerhalb einer Woche wie ein Zaun aussehen, da die Haare unterschiedliche Wachstumsphasen durchlaufen.',
 	'recommends-whiskers':
-		'Im Tastgefühl werden sich die Haare dick und stachelig anfühlen, ähnlich wie Schnurrhaare.',
+		'Im Tastgefühl werden sich die Haare dick und stachelig anfühlen, ähnlich wie Barthaare.',
 
 	'recommends-depilation': 'Haarentfernung',
 	'recommends-before':
@@ -205,7 +204,7 @@ export const de = {
 		'Aufgrund der reduzierten Haarmenge wird auch die Dauer der Prozedur verkürzt.',
 	'recommends-silky': 'Die Haut wird glatt, elastisch und seidig.',
 
-	'work-title': 'Kontakt und arbeitszeiten',
+	'work-title': 'Kontakt und ÖFFNUNGSZEITEN',
 	'work-monday': 'montag',
 	'work-tuesday': 'dienstag',
 	'work-wednesday ': 'mittwoch ',
@@ -213,14 +212,14 @@ export const de = {
 	'work-friday': 'freitag',
 	'work-saturday': 'samstag ',
 	'work-sunday': 'sonntag',
-	'work-btn': 'Rufen sie uns an',
+	'work-btn': 'Rufen Sie uns an',
 
 	'contacts-title': 'Kontakt',
 	'contacts-subtitle': 'Sie können uns jederzeit anrufen.',
 	'contacts-address': 'Lavendelstraße 9, 80-840 Danzig, Polen',
 	'contacts-emailus':
 		'Fühlen Sie sich frei, uns Ihre Fragen per E-Mail zu senden.',
-	'contacts-touch': 'Kommen sie in kontakt',
+	'contacts-touch': 'Kontaktieren Sie uns',
 	'contacts-mistake1': 'Dieses Feld ist erforderlich.',
 	'contacts-mistake2': 'Dieses Feld ist erforderlich.',
 	'contacts-mistake3': 'Dieses Feld ist erforderlich.',

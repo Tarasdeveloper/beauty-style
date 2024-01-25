@@ -70,7 +70,7 @@
 			background-size: contain;
 			transform: translateX(-50%);
 			z-index: -1;
-			opacity: 0.7;
+			opacity: 0.8;
 
 			@include r($r-ph) {
 				width: 120px;
@@ -164,7 +164,7 @@
 		margin-bottom: 5px;
 	}
 	&_depilation-bottom-list {
-		font-weight: 600;
+		font-weight: 500;
 		color: var(--title-color);
 		font-size: 15px;
 		line-height: 1.4;

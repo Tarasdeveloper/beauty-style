@@ -4,7 +4,7 @@ export const en = {
 	'link-contacts': 'Contacts',
 
 	'hero-title': 'Eyebrows, Lashes, Nails &&nbsp;Depilation',
-	'hero-subtitle': 'Escape from everyday busy reality and treat your skin',
+	'hero-subtitle': 'Escape from everyday hustle and take care of yourself',
 
 	// 'appoint-plname': 'Your name',
 	// 'appoint-plnumber': 'Your phone number',
@@ -36,8 +36,7 @@ export const en = {
 		'Check out the full portfolio of our works including nails, eyebrows, eyelashes and more. Everything you see here was performed by our team.',
 
 	'about-title': 'About Us',
-	'about-top':
-		'Beauty Style is one of the premier beauty saloons in Gdansk, visited not only by Poles but also by Ukrainians, Germans, and representatives of many other countries.',
+	'about-top': 'Beauty Style is one of the premier beauty saloons in Gdansk.',
 	'about-bottom':
 		'Our beauty saloon has earned an incredible reputation as our professional team continues to work wonders on clients’ eyes and nails and enhance their assets through our services.',
 	'about-btn': 'view more',
