@@ -23,7 +23,7 @@ export const en = {
 	'featured-any': 'Any Colors You Can Imagine',
 	'featured-brows': 'Eyebrows & Lashes',
 	'featured-create': 'Creating Your Image',
-	'featured-depilat': 'Depilation',
+	'featured-depilat': 'Waxing',
 	'featured-treat': 'Treat your skin',
 
 	'promo-hidden': 'promotion giveaway',

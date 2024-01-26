@@ -23,7 +23,7 @@ export const pl = {
 	'featured-any': 'Wszystkie kolory, jakie sobie wyobrażasz',
 	'featured-brows': 'Brwi i Rzęsy',
 	'featured-create': 'Tworzenie Twojego Wizerunku',
-	'featured-depilat': 'Depilacja',
+	'featured-depilat': 'Depilacja woskova',
 	'featured-treat': 'Zadbaj o swoją skórę',
 
 	'promo-hidden': 'promocyjna zniżka',
@@ -210,7 +210,7 @@ export const pl = {
 
 	'contacts-title': 'Kontakty',
 	'contacts-subtitle': 'Możesz do nas dzwonić o każdej porze',
-	'contacts-address': 'Lawendowa 9, 80-840 Gdańsk, Polska',
+	'contacts-address': ' ul. Lawendowa 9, 80-840 Gdańsk, Polska',
 	'contacts-emailus': 'Nie wahaj się wysłać nam swoich pytań drogą mailową',
 	'contacts-touch': 'SKONTAKTUJ SIĘ',
 	'contacts-mistake1': 'To pole jest wymagane',

@@ -23,7 +23,7 @@ export const de = {
 	'featured-any': 'Alle farben, die du dir vorstellen kannst.',
 	'featured-brows': 'Augenbrauen & Wimpern',
 	'featured-create': 'Dein Image gestalten',
-	'featured-depilat': 'Haarentfernung',
+	'featured-depilat': 'Wachs-enthaarung',
 	'featured-treat': 'Verwöhnen Sie Ihre Haut',
 
 	'promo-hidden': 'promotion-geschenkaktion',

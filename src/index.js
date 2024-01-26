@@ -9,3 +9,4 @@ import './JS/modalPromo';
 import './JS/modalAbout';
 import './JS/lightbox';
 import './JS/translate';
+import './JS/airDatePicker';

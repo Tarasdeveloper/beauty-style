@@ -23,7 +23,7 @@ export const uk = {
 	'featured-any': 'Будь-які кольори, які ви можете уявити',
 	'featured-brows': 'Брови та вії',
 	'featured-create': 'Створення вашого образу',
-	'featured-depilat': 'Депіляція',
+	'featured-depilat': 'Воскова депіляція',
 	'featured-treat': 'Подбай про свою шкіру',
 
 	'promo-hidden': 'Акційні знижки',
