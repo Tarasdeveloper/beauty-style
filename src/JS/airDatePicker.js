@@ -6,12 +6,13 @@ import localeDe from 'air-datepicker/locale/de';
 import localeUK from 'air-datepicker/locale/uk';
 
 new AirDatepicker('#appointmentPicker', {
-	// inline: true,
+	inline: true,
 	// isMobile: true,
 	// position: 'left center',
-	// locale: [localePl, localeEn, localeUK, localeDe],
+	// locale: ['localeDe', 'localeUK', 'localePl', 'localeEn'],
 	autoClose: true,
 	minDate: new Date(),
+	dateFormat: 'dd/MM/yyyy',
 	locale: localeDe,
 	locale: localeUK,
 	locale: localePl,
