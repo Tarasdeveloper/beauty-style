@@ -76,33 +76,89 @@
 	}
 	.air-datepicker {
 		background-color: var(--white);
+		width: 300px;
 		box-shadow: -3px 0px 50px -2px rgba(0, 0, 0, 0.09);
-		max-width: 300px;
-		width: 100%;
 		border: 1px solid var(--shadow-color);
 		border-radius: 0;
+		font-family: inherit;
+
+		@include r($r-ph) {
+			width: 100%;
+			max-width: 300px;
+		}
 
 		&-nav {
-			background-color: var(--hover-purple);
+			background-color: #8c5fc6;
 			color: var(--white);
+			padding: 0;
 		}
+
+		&-nav--action {
+			height: 30px;
+			margin: auto 0;
+			background-color: transparent;
+		}
+
 		&-nav--title {
 			display: block;
 			font-size: 1.3em;
 			font-weight: 600;
-		}
-		&-nav--title i {
-			display: block;
 			text-align: center;
-			margin-left: 0;
-			color: var(--white);
-			font-size: 1.2em;
-			font-weight: 300;
+			width: 100%;
+			cursor: default;
+			background-color: #8c5fc6;
+			padding: 0;
+
+			& i {
+				display: block;
+				text-align: center;
+				margin-left: 0;
+				color: var(--white);
+				font-size: 1.2em;
+				font-weight: 300;
+			}
+
+			& strong {
+				font-size: 45px;
+				line-height: 1;
+				font-weight: 600;
+			}
+
+			& span {
+				display: block;
+				font-size: 20px;
+			}
+
+			& div {
+				// background-color: #7240b2;
+				background-color: #8c5fc6;
+				text-transform: capitalize;
+				font-weight: 300;
+				font-size: 15px;
+			}
+
+			&:hover {
+				background: transparent;
+			}
 		}
+
 		&-body--day-name {
 			color: var(--title-color);
 			font-weight: 700;
-			// box-shadow: inset 0 0 0 9999px transparent;
+			font-size: 15px;
+			letter-spacing: -0.03em;
+		}
+
+		&-cell {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 1.2;
+
+			&.-current- {
+				color: var(--white);
+				background-color: var(--hover-purple);
+				border-radius: 50%;
+			}
 		}
 	}
 }

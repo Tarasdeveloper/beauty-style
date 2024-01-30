@@ -12,9 +12,14 @@ new AirDatepicker('#appointmentPicker', {
 	// locale: ['localeDe', 'localeUK', 'localePl', 'localeEn'],
 	autoClose: true,
 	minDate: new Date(),
+	firstDay: 1,
 	dateFormat: 'dd/MM/yyyy',
 	locale: localeDe,
 	locale: localeUK,
 	locale: localePl,
 	locale: localeEn,
+	weekends: [6, 0],
+	navTitles: {
+		days: ' <div>EEEE</div> <span>MMM</span> <strong>dd</strong> <i>yyyy</i>',
+	},
 });
