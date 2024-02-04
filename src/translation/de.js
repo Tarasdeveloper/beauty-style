@@ -11,6 +11,9 @@ export const de = {
 	// 'appoint-name': 'name',
 	// 'appoint-phone': 'telefon',
 	// 'appoint-date': 'datum',
+	'appoint-mistake1': 'Dieses Feld ist erforderlich.',
+	'appoint-mistake2': 'Dieses Feld ist erforderlich.',
+	'appoint-mistake3': 'Dieses Feld ist erforderlich.',
 	'appoint-btn': 'Termin vereinbaren',
 
 	'featured-title': 'Unsere leistungen',
@@ -230,4 +233,17 @@ export const de = {
 	'footer-contacts': 'Kontakt',
 	'footer-gallery': 'Galerie',
 	'footer-about': 'Über uns',
+
+	'mod_about-title': 'Über Uns',
+	'mod_about-text_top':
+		'Beauty Style ist einer der führenden Schönheitssalons in Danzig',
+	'mod_about-text_bottom':
+		'Unser Schönheitssalon hat sich einen unglaublichen Ruf erworben, während unser professionelles Team weiterhin Wunder an den Augen und Nägeln der Kunden vollbringt und ihre Vorzüge durch unsere Dienstleistungen betont.',
+	'mod_about-contact': 'Kontaktieren Sie uns',
+
+	'mod_promo-subtitle': 'Nur 3 Tage',
+	'mod_promo-title': '20% Rabatt auf Nagelstyling Dienstleistungen',
+	'mod_promo-text':
+		'Ipsum dolor sit amet, consectetur adipisicing elit. Ea soluta assumenda facilis ex. Aliquid iste optio minus? Aut dolores nisi eum laborum eos error porro, alias, sapiente animi, accusantium officiis. Perspiciatis, magni expedita veritatis, rem eveniet possimus ducimus fugit pariatur alias cupiditate rerum, esse recusandae officia at modi facere aspernatur harum! Quae rerum nostrum eius voluptatum excepturi corrupti earum reprehenderit? Voluptas maxime doloribus earum ex in, est tempore.',
+	'mod_promo-contact': 'Kontaktieren Sie uns',
 };

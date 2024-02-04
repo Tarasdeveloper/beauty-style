@@ -7,7 +7,7 @@
 	box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);
 
 	max-width: 650px;
-	min-height: 400px;
+	// min-height: 400px;
 	width: 100%;
 	color: var(--white);
 
@@ -28,6 +28,7 @@
 		display: flex;
 		flex-direction: column;
 		text-align: center;
+		min-height: 400px;
 
 		@include r($r-ph) {
 			padding: 12px;
@@ -88,9 +89,9 @@
 		font-weight: 600;
 		letter-spacing: 0.002em;
 		padding: 18px 35px;
-		width: 190px;
+		max-width: 250px;
+		// margin-bottom: 10px;
 		display: inline-block;
-		margin-bottom: 10px;
 		color: var(--default-color);
 		background-color: var(--white);
 		transition: color var(--transit), background-color var(--transit);

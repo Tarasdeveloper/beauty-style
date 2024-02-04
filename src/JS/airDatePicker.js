@@ -6,9 +6,9 @@ import localeDe from 'air-datepicker/locale/de';
 import localeUK from 'air-datepicker/locale/uk';
 
 new AirDatepicker('#appointmentPicker', {
-	inline: true,
-	// isMobile: true,
-	// position: 'left center',
+	// inline: true,
+	isMobile: true,
+	position: 'bottom center',
 	// locale: ['localeDe', 'localeUK', 'localePl', 'localeEn'],
 	autoClose: true,
 	minDate: new Date(),
@@ -22,4 +22,6 @@ new AirDatepicker('#appointmentPicker', {
 	navTitles: {
 		days: ' <div>EEEE</div> <span>MMM</span> <strong>dd</strong> <i>yyyy</i>',
 	},
+	buttons: ['today', 'clear'],
+	// timepicker: true,
 });

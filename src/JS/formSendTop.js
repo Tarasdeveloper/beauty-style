@@ -2,7 +2,7 @@ import Swal from 'sweetalert2';
 import alertPicture from '../images/bg-s/alertphoto.jpg';
 
 document.addEventListener('DOMContentLoaded', function () {
-	const form = document.getElementById('contactsForm');
+	const form = document.getElementById('appointmentForm');
 	form.addEventListener('submit', formSend);
 
 	async function formSend(e) {
@@ -21,10 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 			if (response.ok) {
 				// let result = await response.json();
-
 				Swal.fire({
 					title: 'Success!',
-					text: 'Message sent successfully.',
+					text: 'Contact sent successfully.',
 					imageUrl: alertPicture,
 					imageWidth: 400,
 					imageHeight: 268,
@@ -35,15 +34,9 @@ document.addEventListener('DOMContentLoaded', function () {
 				form.classList.remove('_sending');
 			} else {
 				form.reset();
-				Swal.fire({
-					icon: 'error',
-					title: 'Oops...',
-					text: 'Something went wrong!',
-				});
+				alert('Error happend');
 				form.classList.remove('_sending');
 			}
-			// } else {
-			// 	alert('Fill all fields please');
 		}
 	}
 
@@ -54,18 +47,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		for (let index = 0; index < formReq.length; index++) {
 			const input = formReq[index];
 			formRemoveError(input);
-
-			if (input.classList.contains('_email')) {
-				if (emailTest(input)) {
-					formAddError(input);
-					error++;
-				}
-			} else {
-				if (input.value === '') {
-					formAddError(input);
-					error++;
-				}
-			}
 		}
 		return error;
 	}
@@ -78,10 +59,5 @@ document.addEventListener('DOMContentLoaded', function () {
 	function formRemoveError(input) {
 		input.parentElement.classList.remove('_error');
 		input.classList.remove('_error');
-	}
-
-	function emailTest(input) {
-		// Регулярное выражение для проверки валидности email
-		return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
 	}
 });

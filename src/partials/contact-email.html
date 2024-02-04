@@ -53,7 +53,13 @@
 
 			<div class="contacts-form_block">
 				<h2 class="contacts-title" data-t="contacts-touch">GET IN TOUCH</h2>
-				<form class="contacts-form" id="form">
+
+				<form class="contacts-form" id="contactsForm">
+					<input
+						type="hidden"
+						name="access_key"
+						value="b8931619-2c6f-41eb-9799-19402671ec97"
+					/>
 					<div class="contacts-form_wrap">
 						<input
 							class="contacts-form_input _req"
@@ -61,9 +67,9 @@
 							name="name"
 							placeholder="Name"
 						/>
-						<span class="contacts-form_mistake" data-t="contacts-mistake1"
-							>This field is required</span
-						>
+						<span class="contacts-form_mistake" data-t="contacts-mistake1">
+							This field is required
+						</span>
 					</div>
 					<div class="contacts-form_wrap">
 						<input
@@ -72,9 +78,9 @@
 							name="email"
 							placeholder="Email"
 						/>
-						<span class="contacts-form_mistake" data-t="contacts-mistake2"
-							>This field is required</span
-						>
+						<span class="contacts-form_mistake" data-t="contacts-mistake2">
+							This field is required
+						</span>
 					</div>
 					<div class="contacts-form_wrap">
 						<textarea
@@ -83,8 +89,8 @@
 							placeholder="Message"
 						></textarea>
 						<span class="contacts-form_mistake" data-t="contacts-mistake3"
-							>This field is required</span
-						>
+							>This field is required
+						</span>
 					</div>
 					<button
 						class="contacts-form_button"

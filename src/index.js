@@ -4,6 +4,7 @@ import './JS/scrollSmooth';
 import './JS/scrollUp';
 import './JS/animation';
 import './JS/formSend';
+import './JS/formSendTop';
 import './JS/menuButton';
 import './JS/modalPromo';
 import './JS/modalAbout';

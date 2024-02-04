@@ -11,6 +11,9 @@ export const uk = {
 	// 'appoint-name': 'Ім`я',
 	// 'appoint-phone': 'Телефон',
 	// 'appoint-date': 'Дата',
+	'appoint-mistake1': 'Це поле обов&rsquo;язкове.',
+	'appoint-mistake2': 'Це поле обов&rsquo;язкове.',
+	'appoint-mistake3': 'Це поле обов&rsquo;язкове.',
 	'appoint-btn': 'Запис на прийом',
 
 	'featured-title': 'Наші послуги',
@@ -217,9 +220,9 @@ export const uk = {
 	'contacts-emailus':
 		'Не соромтеся надсилати нам свої питання на електронну пошту.',
 	'contacts-touch': 'Зв&rsquo;яжіться з нами',
-	'contacts-mistake1': 'Це поле обов`язкове.',
-	'contacts-mistake2': 'Це поле обов`язкове.',
-	'contacts-mistake3': 'Це поле обов`язкове.',
+	'contacts-mistake1': 'Це поле обов&rsquo;язкове.',
+	'contacts-mistake2': 'Це поле обов&rsquo;язкове.',
+	'contacts-mistake3': 'Це поле обов&rsquo;язкове.',
 	'contacts-btn': 'Відправити повідомлення',
 
 	'footer-hidden': 'футер сторінки',
@@ -227,4 +230,17 @@ export const uk = {
 	'footer-contacts': 'Контакти',
 	'footer-gallery': 'Галерея',
 	'footer-about': 'Про нас',
+
+	'mod_about-title': 'Про Нас',
+	'mod_about-text_top':
+		'Beauty Style є одним з провідних салонів краси в Гданську.',
+	'mod_about-text_bottom':
+		'Наш салон краси здобув неймовірну репутацію, оскільки наш професійний колектив продовжує творити дива з очима і нігтями клієнтів та покращувати їхні природні переваги через наші послуги.',
+	'mod_about-contact': 'Зв&rsquo;яжіться з нами',
+
+	'mod_promo-subtitle': 'тільки 3 дні',
+	'mod_promo-title': '20% знижка на дизайн нігтів',
+	'mod_promo-text':
+		'Lorem dolor sit amet, consectetur adipisicing elit. Ea soluta assumenda facilis ex. Aliquid iste optio minus? Aut dolores nisi eum laborum eos error porro, alias, sapiente animi, accusantium officiis. Perspiciatis, magni expedita veritatis, rem eveniet possimus ducimus fugit pariatur alias cupiditate rerum, esse recusandae officia at modi facere aspernatur harum! Quae rerum nostrum eius voluptatum excepturi corrupti earum reprehenderit? Voluptas maxime doloribus earum ex in, est tempore.',
+	'mod_promo-contact': 'Зв&rsquo;яжіться з нами',
 };

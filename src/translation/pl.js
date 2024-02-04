@@ -11,6 +11,9 @@ export const pl = {
 	// 'appoint-name': 'imię',
 	// 'appoint-phone': 'telefon',
 	// 'appoint-date': 'date',
+	'appoint-mistake1': 'To pole jest wymagane',
+	'appoint-mistake2': 'To pole jest wymagane',
+	'appoint-mistake3': 'To pole jest wymagane',
 	'appoint-btn': 'Umów się na wizytę',
 
 	'featured-title': 'Najnowsze Oferty',
@@ -223,4 +226,17 @@ export const pl = {
 	'footer-contacts': 'Kontakty',
 	'footer-gallery': 'Galeria',
 	'footer-about': 'O Nas',
+
+	'mod_about-title': 'O Nas',
+	'mod_about-text_top':
+		'Beauty Style to jeden z najlepszych salonów urody w Gdańsku.',
+	'mod_about-text_bottom':
+		'Nasz salon urody zyskał niesamowitą reputację, ponieważ nasz profesjonalny zespół nadal zdumiewa klientów poprzez pracę nad oczami i paznokciami, podkreślając ich atuty za pomocą naszych usług',
+	'mod_about-contact': 'Skontaktuj się z nami',
+
+	'mod_promo-subtitle': 'tylko 3 dni',
+	'mod_promo-title': '20% zniżki na usługi stylizacji paznokci',
+	'mod_promo-text':
+		'Lorem ipsum dolor, consectetur adipisicing elit. Ea soluta assumenda facilis ex. Aliquid iste optio minus? Aut dolores nisi eum laborum eos error porro, alias, sapiente animi, accusantium officiis. Perspiciatis, magni expedita veritatis, rem eveniet possimus ducimus fugit pariatur alias cupiditate rerum, esse recusandae officia at modi facere aspernatur harum! Quae rerum nostrum eius voluptatum excepturi corrupti earum reprehenderit? Voluptas maxime doloribus earum ex in, est tempore.',
+	'mod_promo-contact': 'Skontaktuj się z nami',
 };

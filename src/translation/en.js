@@ -11,6 +11,9 @@ export const en = {
 	// 'appoint-name': 'name',
 	// 'appoint-phone': 'phone',
 	// 'appoint-date': 'date',
+	'appoint-mistake1': 'This field is required',
+	'appoint-mistake2': 'This field is required',
+	'appoint-mistake3': 'This field is required',
 	'appoint-btn': 'Make an appointment',
 
 	'featured-title': 'Featured Offers',
@@ -227,4 +230,17 @@ export const en = {
 	'footer-contacts': 'Contacts',
 	'footer-gallery': 'Gallery',
 	'footer-about': 'About',
+
+	'mod_about-title': 'About Us',
+	'mod_about-text_top':
+		'Beauty Style is one of the premier beauty saloons in Gdansk, visited not only by Poles but also by Ukrainians, Germans, and representatives of many other countries.',
+	'mod_about-text_bottom':
+		'Our beauty saloon has earned an incredible reputation as our professional team continues to work wonders on clients’ eyes and nails and enhance their assets through our services.',
+	'mod_about-contact': 'Contact Us',
+
+	'mod_promo-subtitle': 'only 3 days',
+	'mod_promo-title': '20% off Nailstyling Services',
+	'mod_promo-text':
+		'Lorem ipsum sit amet, consectetur adipisicing elit. Ea soluta assumenda facilis ex. Aliquid iste optio minus? Aut dolores nisi eum laborum eos error porro, alias, sapiente animi, accusantium officiis. Perspiciatis, magni expedita veritatis, rem eveniet possimus ducimus fugit pariatur alias cupiditate rerum, esse recusandae officia at modi facere aspernatur harum! Quae rerum nostrum eius voluptatum excepturi corrupti earum reprehenderit? Voluptas maxime doloribus earum ex in, est tempore.',
+	'mod_promo-contact': 'Contact Us',
 };
