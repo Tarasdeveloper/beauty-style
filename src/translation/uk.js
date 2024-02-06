@@ -234,13 +234,15 @@ export const uk = {
 	'mod_about-title': 'Про Нас',
 	'mod_about-text_top':
 		'Beauty Style є одним з провідних салонів краси в Гданську.',
+	'mod_about-text_middle':
+		' Вітаємо в Beauty Style – де краса перетворюється на історію! Наш колектив - це дружня сім&rsquo;я фахівців, які не лише створюють красивий образ, а й формують цілісний спосіб життя. В Beauty Style кожен майстер – віртуоз своєї справи, із обширним досвідом та талантом, готовий до індивідуального підходу. Ми прагнемо, щоб наші клієнти не лише насолоджувалися високоякісними послугами, але й відчували затишок, гостинність та натхнення в Beauty Style.',
 	'mod_about-text_bottom':
-		'Наш салон краси здобув неймовірну репутацію, оскільки наш професійний колектив продовжує творити дива з очима і нігтями клієнтів та покращувати їхні природні переваги через наші послуги.',
+		'Довірте свою красу фахівцям Beauty Style – де кожен гість – не просто клієнт, а важлива частина нашої історії.',
 	'mod_about-contact': 'Зв&rsquo;яжіться з нами',
 
 	'mod_promo-subtitle': 'тільки 3 дні',
-	'mod_promo-title': '20% знижка на дизайн нігтів',
+	'mod_promo-title': 'Акція 3 Дні Краси на початку місяця:',
 	'mod_promo-text':
-		'Lorem dolor sit amet, consectetur adipisicing elit. Ea soluta assumenda facilis ex. Aliquid iste optio minus? Aut dolores nisi eum laborum eos error porro, alias, sapiente animi, accusantium officiis. Perspiciatis, magni expedita veritatis, rem eveniet possimus ducimus fugit pariatur alias cupiditate rerum, esse recusandae officia at modi facere aspernatur harum! Quae rerum nostrum eius voluptatum excepturi corrupti earum reprehenderit? Voluptas maxime doloribus earum ex in, est tempore.',
+		'Розкіш і стиль чекають вас щомісяця в нашому салоні краси Beauty Style! Тільки протягом перших трьох днів місяця ми пропонуємо вам неймовірні 20% знижки на дизайн нігтів. Запишіться вже зараз та відчуйте магію ідеального манікюру. Акція діє обмежений час - не пропустіть свій шанс!',
 	'mod_promo-contact': 'Зв&rsquo;яжіться з нами',
 };

@@ -14,7 +14,7 @@
 	.logo {
 		font-size: clamp(35px, 5vw, 60px);
 		margin-bottom: 50px;
-		width: auto;
+		// width: auto;
 
 		@include r($r-ph) {
 			margin-bottom: 30px;

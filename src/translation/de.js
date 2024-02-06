@@ -237,8 +237,10 @@ export const de = {
 	'mod_about-title': 'Über Uns',
 	'mod_about-text_top':
 		'Beauty Style ist einer der führenden Schönheitssalons in Danzig',
+	'mod_about-text_middle':
+		' Willkommen bei Beauty Style – wo Schönheit sich in eine Geschichte verwandelt! Unser Team ist eine freundliche Familie von Fachleuten, die nicht nur ein schönes Bild schaffen, sondern auch einen ganzheitlichen Lebensstil formen. Bei Beauty Style ist jeder Meister ein Virtuose in seinem Handwerk, mit umfangreicher Erfahrung und Talent, bereit für einen individuellen Ansatz. Wir streben danach, dass unsere Kunden nicht nur hochwertige Dienstleistungen genießen, sondern sich auch in Beauty Style wohlfühlen, Gastfreundschaft und Inspiration erleben.',
 	'mod_about-text_bottom':
-		'Unser Schönheitssalon hat sich einen unglaublichen Ruf erworben, während unser professionelles Team weiterhin Wunder an den Augen und Nägeln der Kunden vollbringt und ihre Vorzüge durch unsere Dienstleistungen betont.',
+		' Vertrauen Sie Ihre Schönheit den Experten von Beauty Style an – wo jeder Gast nicht nur ein Kunde, sondern ein wichtiger Teil unserer Geschichte ist.',
 	'mod_about-contact': 'Kontaktieren Sie uns',
 
 	'mod_promo-subtitle': 'Nur 3 Tage',

@@ -234,8 +234,10 @@ export const en = {
 	'mod_about-title': 'About Us',
 	'mod_about-text_top':
 		'Beauty Style is one of the premier beauty saloons in Gdansk, visited not only by Poles but also by Ukrainians, Germans, and representatives of many other countries.',
+	'mod_about-text_middle':
+		'Welcome to Beauty Style – where beauty transforms into a story! Our team is a friendly family of professionals who not only create a beautiful image but also shape a holistic way of life. At Beauty Style, each master is a virtuoso in their craft, with extensive experience and talent, ready for an individual approach. We strive for our clients to not only enjoy high-quality services but also feel comfort, hospitality, and inspiration at Beauty Style.',
 	'mod_about-text_bottom':
-		'Our beauty saloon has earned an incredible reputation as our professional team continues to work wonders on clients’ eyes and nails and enhance their assets through our services.',
+		'Entrust your beauty to the experts at Beauty Style – where every guest is not just a client but an important part of our story.',
 	'mod_about-contact': 'Contact Us',
 
 	'mod_promo-subtitle': 'only 3 days',

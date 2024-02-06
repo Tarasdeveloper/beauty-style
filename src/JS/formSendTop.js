@@ -47,6 +47,18 @@ document.addEventListener('DOMContentLoaded', function () {
 		for (let index = 0; index < formReq.length; index++) {
 			const input = formReq[index];
 			formRemoveError(input);
+
+			if (input.classList.contains('_phone')) {
+				if (phoneTest(input)) {
+					formAddError(input);
+					error++;
+				}
+			} else {
+				if (input.value === '') {
+					formAddError(input);
+					error++;
+				}
+			}
 		}
 		return error;
 	}
@@ -59,5 +71,10 @@ document.addEventListener('DOMContentLoaded', function () {
 	function formRemoveError(input) {
 		input.parentElement.classList.remove('_error');
 		input.classList.remove('_error');
+	}
+
+	function phoneTest(input) {
+		// Регулярное выражение для проверки валидности phone
+		return !/\(?\d{3}\)?([-\/\.])\d{3}\1\d{4}/;
 	}
 });

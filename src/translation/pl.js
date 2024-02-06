@@ -230,8 +230,10 @@ export const pl = {
 	'mod_about-title': 'O Nas',
 	'mod_about-text_top':
 		'Beauty Style to jeden z najlepszych salonów urody w Gdańsku.',
+	'mod_about-text_middle':
+		' Witamy w Beauty Style – tam, gdzie piękno przekształca się w historię! Nasz zespół to przyjazna rodzina specjalistów, którzy nie tylko tworzą piękny wizerunek, ale także kształtują kompleksowy sposób życia. W Beauty Style każdy mistrz to wirtuoz w swoim fachu, z szerokim doświadczeniem i talentem, gotowy do indywidualnego podejścia. Dążymy do tego, aby nasi klienci nie tylko cieszyli się usługami najwyższej jakości, ale także odczuwali wygodę, gościnność i inspirację w Beauty Style.',
 	'mod_about-text_bottom':
-		'Nasz salon urody zyskał niesamowitą reputację, ponieważ nasz profesjonalny zespół nadal zdumiewa klientów poprzez pracę nad oczami i paznokciami, podkreślając ich atuty za pomocą naszych usług',
+		'Powierz swoje piękno ekspertom z Beauty Style – gdzie każdy gość to nie tylko klient, ale ważna część naszej historii.',
 	'mod_about-contact': 'Skontaktuj się z nami',
 
 	'mod_promo-subtitle': 'tylko 3 dni',
