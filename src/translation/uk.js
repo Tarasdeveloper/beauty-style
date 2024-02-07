@@ -80,9 +80,9 @@ export const uk = {
 
 	'pricing-femdepilat': 'Жіноча депіляція',
 	'pricing-sideburns': 'БАКЕНБАРДИ',
-	'pricing-nose': 'НІС',
+	'pricing-nosefem': 'НІС',
 	'pricing-chin': 'ПІДБОРІДДЯ',
-	'pricing-neck': 'ШИЯ',
+	'pricing-neckfem': 'ШИЯ',
 	'pricing-armpits': 'ПАХВИ',
 	'pricing-arms1': 'РУКИ',
 	'pricing-arms2': 'РУКИ 1/2',

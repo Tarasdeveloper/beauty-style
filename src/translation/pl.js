@@ -80,9 +80,9 @@ export const pl = {
 
 	'pricing-femdepilat': 'DEPILACJA KOBIETA',
 	'pricing-sideburns': 'BAKI',
-	'pricing-nose': 'NOS',
+	'pricing-nosefem': 'NOS',
 	'pricing-chin': 'BRODA',
-	'pricing-neck': 'SZYJA',
+	'pricing-neckfem': 'SZYJA',
 	'pricing-armpits': 'PACHY',
 	'pricing-arms1': 'RĘCE',
 	'pricing-arms2': 'RĘCE 1/2',
@@ -239,6 +239,6 @@ export const pl = {
 	'mod_promo-subtitle': 'tylko 3 dni',
 	'mod_promo-title': '20% zniżki na usługi stylizacji paznokci',
 	'mod_promo-text':
-		'Lorem ipsum dolor, consectetur adipisicing elit. Ea soluta assumenda facilis ex. Aliquid iste optio minus? Aut dolores nisi eum laborum eos error porro, alias, sapiente animi, accusantium officiis. Perspiciatis, magni expedita veritatis, rem eveniet possimus ducimus fugit pariatur alias cupiditate rerum, esse recusandae officia at modi facere aspernatur harum! Quae rerum nostrum eius voluptatum excepturi corrupti earum reprehenderit? Voluptas maxime doloribus earum ex in, est tempore.',
+		'Luksus i styl czekają na Ciebie co miesiąc w naszym salonie urody Beauty Style! Tylko w ciągu pierwszych trzech dni miesiąca oferujemy niesamowitą zniżkę 20% na zdobienie paznokci. Zapisz się już teraz i poczuj magię idealnego manicure. Promocja trwa ograniczony czas - nie przegap swojej szansy!',
 	'mod_promo-contact': 'Skontaktuj się z nami',
 };

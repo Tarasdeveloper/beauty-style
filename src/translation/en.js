@@ -58,7 +58,7 @@ export const en = {
 	'pricing-title': 'Pricing',
 	'pricing-lashandbrows': 'Eyelashes & Eyebrows',
 	'pricing-femail': 'Femail depilation',
-	'pricing-mail': 'Mail depilation',
+	'pricing-mail': 'Male depilation',
 	'pricing-manicure': 'Manicure & Pedicure',
 
 	'pricing-lashes': 'Eyelashes',
@@ -80,9 +80,9 @@ export const en = {
 
 	'pricing-femdepilat': 'Femail depilation',
 	'pricing-sideburns': 'SIDEBURNS',
-	'pricing-nose': 'NOSE',
+	'pricing-nosefem': 'NOSE',
 	'pricing-chin': 'CHIN',
-	'pricing-neck': 'NECK',
+	'pricing-neckfem': 'NECK',
 	'pricing-armpits': 'ARMPITS',
 	'pricing-arms1': 'ARMS',
 	'pricing-arms2': 'ARMS 1/2',
@@ -94,12 +94,12 @@ export const en = {
 	'pricing-bikinideep': 'DEEP BIKINI',
 	'pricing-butt': 'BUTTOCKS',
 
-	'pricing-maildepilat': 'Mail depilation',
+	'pricing-maildepilat': 'Male depilation',
 	'pricing-mailbrows': 'EYEBROW SHAPING',
 	'pricing-ears': 'EARS',
 	'pricing-nose': 'NOSE',
 	'pricing-neck': 'NECK',
-	'pricing-pits': 'BACK',
+	'pricing-pits': 'armpits',
 	'pricing-back': 'BACK',
 	'pricing-backarms': 'BACK + ARMS',
 	'pricing-hands': 'ARMS',
@@ -243,6 +243,6 @@ export const en = {
 	'mod_promo-subtitle': 'only 3 days',
 	'mod_promo-title': '20% off Nailstyling Services',
 	'mod_promo-text':
-		'Lorem ipsum sit amet, consectetur adipisicing elit. Ea soluta assumenda facilis ex. Aliquid iste optio minus? Aut dolores nisi eum laborum eos error porro, alias, sapiente animi, accusantium officiis. Perspiciatis, magni expedita veritatis, rem eveniet possimus ducimus fugit pariatur alias cupiditate rerum, esse recusandae officia at modi facere aspernatur harum! Quae rerum nostrum eius voluptatum excepturi corrupti earum reprehenderit? Voluptas maxime doloribus earum ex in, est tempore.',
+		'Luxury and style await you every month at our Beauty Style salon! Only during the first three days of the month, we offer you an incredible 20% discount on nail design. Sign up now and experience the magic of a perfect manicure. The promotion is valid for a limited time - don&rsquo;t miss your chance!',
 	'mod_promo-contact': 'Contact Us',
 };

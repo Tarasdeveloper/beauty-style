@@ -81,9 +81,9 @@ export const de = {
 
 	'pricing-femdepilat': 'Haarentfernung für Frauen',
 	'pricing-sideburns': 'Koteletten',
-	'pricing-nose': 'Nase',
+	'pricing-nosefem': 'Nase',
 	'pricing-chin': 'Kinn',
-	'pricing-neck': 'Hals',
+	'pricing-neckfem': 'Hals',
 	'pricing-armpits': 'Achselhöhlen',
 	'pricing-arms1': 'Arme',
 	'pricing-arms2': 'Arme 1/2',
@@ -246,6 +246,6 @@ export const de = {
 	'mod_promo-subtitle': 'Nur 3 Tage',
 	'mod_promo-title': '20% Rabatt auf Nagelstyling Dienstleistungen',
 	'mod_promo-text':
-		'Ipsum dolor sit amet, consectetur adipisicing elit. Ea soluta assumenda facilis ex. Aliquid iste optio minus? Aut dolores nisi eum laborum eos error porro, alias, sapiente animi, accusantium officiis. Perspiciatis, magni expedita veritatis, rem eveniet possimus ducimus fugit pariatur alias cupiditate rerum, esse recusandae officia at modi facere aspernatur harum! Quae rerum nostrum eius voluptatum excepturi corrupti earum reprehenderit? Voluptas maxime doloribus earum ex in, est tempore.',
+		'Luxus und Stil erwarten Sie jeden Monat in unserem Beauty Style Salon! Nur während der ersten drei Tage des Monats bieten wir Ihnen einen unglaublichen Rabatt von 20% auf Nageldesign. Melden Sie sich jetzt an und erleben Sie die Magie perfekter Maniküre. Die Aktion gilt für begrenzte Zeit - verpassen Sie nicht Ihre Chance!',
 	'mod_promo-contact': 'Kontaktieren Sie uns',
 };
