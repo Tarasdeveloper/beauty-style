@@ -109,7 +109,7 @@ body {
 	}
 
 	&-img {
-		transition: all var(--transit);
+		transition: width var(--transit);
 		width: clamp(35px, 4vw, 60px);
 		margin-right: 10px;
 	}

@@ -66,7 +66,7 @@
 		transition: transform var(--transit);
 
 		@include r($r-dt) {
-			column-gap: 20px;
+			column-gap: 18px;
 		}
 
 		@include r($r-tb) {
@@ -142,7 +142,7 @@
 		cursor: pointer;
 		border: none;
 		background-color: transparent;
-		width: 117px;
+		width: 128px;
 
 		& option {
 			background-color: var(--default-bg);

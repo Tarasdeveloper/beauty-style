@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			});
 
 			if (response.ok) {
-				// let result = await response.json();
+				let result = await response.json();
+
 				Swal.fire({
 					title: 'Success!',
 					text: 'Contact sent successfully.',
@@ -34,7 +35,12 @@ document.addEventListener('DOMContentLoaded', function () {
 				form.classList.remove('_sending');
 			} else {
 				form.reset();
-				alert('Error happend');
+				Swal.fire({
+					icon: 'error',
+					title: 'Oops...',
+					text: 'Something went wrong!',
+				});
+
 				form.classList.remove('_sending');
 			}
 		}
@@ -42,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	function formValidate(form) {
 		let error = 0;
-		let formReq = document.querySelectorAll('._req');
+		let formReq = document.querySelectorAll('.req');
 
 		for (let index = 0; index < formReq.length; index++) {
 			const input = formReq[index];
@@ -74,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	function phoneTest(input) {
-		// Регулярное выражение для проверки валидности phone
-		return !/\(?\d{3}\)?([-\/\.])\d{3}\1\d{4}/;
+		return !/^\+?\d{1,3}[-.\s]?\(?\d{1,4}\)?[-.\s]?\d{1,12}$/.test(input.value);
 	}
 });

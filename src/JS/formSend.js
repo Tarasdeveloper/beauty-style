@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			});
 
 			if (response.ok) {
-				// let result = await response.json();
+				let result = await response.json();
 
 				Swal.fire({
 					title: 'Success!',
@@ -81,7 +81,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	function emailTest(input) {
-		// Регулярное выражение для проверки валидности email
 		return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
 	}
 });
