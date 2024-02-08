@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	function phoneTest(input) {
-		return !/^(\+?\d{0,2}[-.\s]?)?\d{0,3}[-.\s]?\d{3}[-.\s]?\d{2}[-.\s]?\d{2}$/.test(
+		return !/^(\+?\d{0,2}[-.\s]?)?\d{0,3}[-.\s]?\d{0,3}[-.\s]?\d{2}[-.\s]?\d{2}$/.test(
 			input.value
 		);
 	}
