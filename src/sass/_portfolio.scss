@@ -55,9 +55,9 @@
 		}
 
 		@include r($r-ph) {
-			width: 100%;
+			width: 99%;
 			height: auto;
-			max-height: 450px;
+			max-height: 400px;
 		}
 
 		&:hover .portfolio-link {
