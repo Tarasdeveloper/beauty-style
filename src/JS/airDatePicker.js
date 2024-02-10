@@ -7,10 +7,6 @@ import localeUK from 'air-datepicker/locale/uk';
 
 new AirDatepicker('#appointmentPicker', {
 	isMobile: true,
-	autoClose: true,
-	position: 'bottom center',
-	// locale: ['localeDe', 'localeUK', 'localePl', 'localeEn'],
-	autoClose: true,
 	minDate: new Date(),
 	firstDay: 1,
 	dateFormat: 'dd/MM/yyyy',
@@ -20,7 +16,16 @@ new AirDatepicker('#appointmentPicker', {
 	locale: localeEn,
 	weekends: [6, 0],
 	navTitles: {
-		days: ' <div>EEEE</div> <span>MMM</span> <strong>dd</strong> <i>yyyy</i>',
+		days(dp) {
+			dp.selectedDates.length;
+			let date = dp.selectedDates[0];
+			return `
+                  ${dp.formatDate(
+										date,
+										'<div>EEEE</div> <span>MMM</span> <strong>dd</strong> <i>yyyy</i>'
+									)}
+                `;
+		},
 	},
 	buttons: ['today', 'clear'],
 	// timepicker: true,
