@@ -32,14 +32,14 @@ new AirDatepicker('#appointmentPicker', {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-	const inutDate = document.getElementById('appointmentPicker');
+	const inputDate = document.getElementById('appointmentPicker');
 
 	const currentDate = new Date();
 	const formattedDate =
-		currentDate.getDate() +
+		('0' + currentDate.getDate()).slice(-2) +
 		'/' +
-		(currentDate.getMonth() + 1) +
+		('0' + (currentDate.getMonth() + 1)).slice(-2) +
 		'/' +
 		currentDate.getFullYear();
-	inutDate.setAttribute('placeholder', formattedDate);
+	inputDate.setAttribute('placeholder', formattedDate);
 });
