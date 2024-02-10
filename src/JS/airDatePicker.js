@@ -6,8 +6,8 @@ import localeDe from 'air-datepicker/locale/de';
 import localeUK from 'air-datepicker/locale/uk';
 
 new AirDatepicker('#appointmentPicker', {
-	// inline: true,
 	isMobile: true,
+	autoClose: true,
 	position: 'bottom center',
 	// locale: ['localeDe', 'localeUK', 'localePl', 'localeEn'],
 	autoClose: true,
@@ -24,4 +24,17 @@ new AirDatepicker('#appointmentPicker', {
 	},
 	buttons: ['today', 'clear'],
 	// timepicker: true,
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+	const inutDate = document.getElementById('appointmentPicker');
+
+	const currentDate = new Date();
+	const formattedDate =
+		currentDate.getDate() +
+		'/' +
+		(currentDate.getMonth() + 1) +
+		'/' +
+		currentDate.getFullYear();
+	inutDate.setAttribute('placeholder', formattedDate);
 });
