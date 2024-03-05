@@ -89,7 +89,7 @@ export const pl = {
 	'pricing-line': 'LINIA NA BRUCHU',
 	'pricing-lumbar': 'LĘDŹWIE',
 	'pricing-legs': 'NOGI CAŁE',
-	'pricing-legs': 'NOGI 1/2',
+	'pricing-legs2': 'NOGI 1/2',
 	'pricing-bikinitop': 'BIKINI TRADYCYNE',
 	'pricing-bikinideep': 'BIKINI GŁĘBOKE',
 	'pricing-butt': 'POŚLADKI',
